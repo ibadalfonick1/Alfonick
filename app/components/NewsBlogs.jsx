@@ -5,7 +5,7 @@ const articles = [
   {
     id: 1,
     title: "Are cobots the next wave of warehouse automation?",
-    image: "/images/Artical-img1.png",
+    image: "/images/Artical-img1.webp",
     time: "4 Mins",
     tags: ["COBOT", "AUTOMATION", "COLLABORATION"],
     link: "/article/cobots",
@@ -13,7 +13,7 @@ const articles = [
   {
     id: 2,
     title: "Trakr: India's homegrown Robotic Dog/Quadruped",
-    image: "/images/Artical-img2.png",
+    image: "/images/Artical-img2.webp",
     time: "4 Mins",
     tags: ["QUADRUPED", "TRAKR", "INDUSTRIAL ROBOTICS"],    
     link: "/article/trakr",
@@ -21,7 +21,7 @@ const articles = [
   {
     id: 3,
     title: "Addverbs Leap into Humanoid Robotics",
-    image: "/images/Artical-img3.png",
+    image: "/images/Artical-img3.webp",
     time: "8 Mins",
     tags: ["HUMANOID ROBOT", "PHYSICAL AI", "DEXTROUS"],
     link: "/article/humanoid",
