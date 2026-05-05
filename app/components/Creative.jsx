@@ -23,12 +23,12 @@ import Image from "next/image";
 ];
 
 const marqueeItems = [
-  "UI/UX DESIGN",
   "MOTION GRAPHICS",
   "WEB DEVELOPMENT",
-  "DIGITAL MARKETING",
-  "Crative Design",
-  "Startagic Branding",
+  "DIGITAL MAKETING",
+  "CREATIVE DESIGN",
+  "BRAND STRATEGY",
+  "UI/UX DESIGN",
 ];
 
 
