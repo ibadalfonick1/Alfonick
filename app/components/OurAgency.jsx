@@ -27,7 +27,7 @@ const OurAgency = () => {
         </div>
 
         <div className="overflow-hidden">
-          <div className="flex gap-8 [&_img]:h-auto [&_img]:rounded-xl pb-20 scrollLeft">
+          <div className="flex gap-8 [&_img]:h-auto [&_img]:rounded-xl pb-10 scrollLeft">
 
             <Image src="/images/agency_1.webp" alt="logo" width={500} height={100} />
 
