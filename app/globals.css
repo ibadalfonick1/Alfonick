@@ -94,6 +94,12 @@ header .container{
   animation: scrollUp 12s linear infinite reverse;
 }
 
+.scroll-up:hover,
+.scroll-down:hover {
+  animation-play-state: paused !important;
+}
+
+
 @keyframes scrollLeft {
   0% {
     transform: translateX(0%);

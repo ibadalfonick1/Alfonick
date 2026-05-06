@@ -7,16 +7,16 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  // CarouselNext,
+  // CarouselPrevious,
 } from "@/components/ui/carousel";
 
 const Testimonial = () => {
   return (
     <section className="bg-black py-10">
-      <div className="container">
+      <div className="max-w-395 mx-auto px-3.75">
 
-        <Carousel className="flex gap-8">
+        <Carousel className="flex md:flex-row flex-col gap-8">
 
           <div className="[&>img]:max-w-75">
             <Image
@@ -52,7 +52,7 @@ const Testimonial = () => {
                 "
               >
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
+                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
                 <h3 >Helena Wound</h3>
                 <span>Business Owner</span>
                 </div>
@@ -77,7 +77,7 @@ const Testimonial = () => {
                 before:bg-contain 
                 before:bg-no-repeat">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
+                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
                 <h3 >Helena Wound</h3>
                 <span>Business Owner</span>
                 </div>
@@ -107,7 +107,7 @@ const Testimonial = () => {
                 before:bg-contain 
                 before:bg-no-repeat">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
+                <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
                 <h3>Helena Wound</h3>
                 <span>Business Owner</span>
                 </div>
@@ -116,8 +116,8 @@ const Testimonial = () => {
 
           </CarouselContent>
 
-          <CarouselPrevious />
-          <CarouselNext />
+          {/* <CarouselPrevious />
+          <CarouselNext /> */}
 
         </Carousel>
       </div>
