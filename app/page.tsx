@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import WhyChoose from './components/WhyChoose'
 import Count from './components/Count'
 import Agency from './components/Agency'
+import Testimonial from './components/Testimonial'
 import NewsBlogs from './components/NewsBlogs'
 import OurAgency from './components/OurAgency'
 
@@ -20,6 +21,7 @@ export default function Home() {
     <Count />  
     <Agency />
     <WhyChoose />
+    <Testimonial />
     <OurAgency />  
     <NewsBlogs />  
     <Footer />

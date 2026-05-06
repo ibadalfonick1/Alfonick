@@ -5,10 +5,10 @@ const Count = () => {
   return (
     <div>
  
- <section className="pt-20 pb-8">
-  <div className="max-w-[1160px] mx-auto px-4 text-center">
+ <section className="sm:pt-20 pt-14 pb-16">
+  <div className="max-w-290 mx-auto px-4 text-center">
 
-    <h2 className="lg:text-[32px] md:text-[30px] text-[26px] xl:text-[40px] lg:leading-12 leading-10 md:leading-10 font-bold!">
+    <h2 className="lg:text-[32px] md:text-[30px] text-[26px] xl:text-[40px] lg:leading-12 md:leading-10 leading-8 font-bold!">
       Unlock Your <span className="italic font-semi-bold!">Brand </span> Potential With 
       <span className="text-[#B81C15] font-bold!"> Strategic</span> Digital Marketing 
       <span className="italic">That </span> Drives Engagement, <Image src="/images/count img_1.webp" alt="logo" width={70} height={12} className="inline rounded-4xl mb-2" />  Growth, And 
