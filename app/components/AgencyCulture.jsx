@@ -38,7 +38,7 @@ export default function AgencyCulture() {
             </div>
           </div>
 
-          <div className="grid grid-cols-12 gap-6">
+          <div className="grid grid-cols-12 gap-4 items-stretch">
             
             <div className="col-span-12 sm:col-span-7 relative rounded-2xl overflow-hidden">
               <Image 
@@ -72,22 +72,31 @@ export default function AgencyCulture() {
           </div>
         </div>
 
-        <div className="col-span-12 lg:col-span-5 relative rounded-2xl overflow-hidden">
+<div className="col-span-12 lg:col-span-5 relative rounded-2xl overflow-hidden group h-full">
+
   <Image
     src="/images/AgencyCulture4.webp"
     alt="social"
     width={648}
     height={898}
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover transition duration-700 ease-in-out group-hover:scale-110"
   />
 
-  <div className="absolute left-2 top-2 sm:top-27 md:top-22 lg:top-15 sm:left-0 sm:right-0 sm:mx-auto w-fit bg-[#363938] text:sm border border-[#a1a1a7] text-white px-5 py-2 sm:px-7 sm:py-3 rounded-full text-sm flex items-center gap-2">
+  <div className="absolute left-2 top-2 sm:top-27 md:top-22 lg:top-15 sm:left-0 sm:right-0 sm:mx-auto w-fit bg-[#363938]/70 backdrop-blur-[40px] border border-[#a1a1a7] text-white px-5 py-2 sm:px-7 sm:py-3 rounded-full text-sm flex items-center gap-2 z-20">
     <span className="w-2 h-2 bg-[#B81C15] rounded-full"></span>
     SOCIAL FREAKS
   </div>
-</div>
 
-      </div>
+  <div className="absolute left-6 bottom-6 translate-y-10 opacity-0 transition-all duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100 z-20">
+    <div className="text-white text-[24px] ">
+      SOCIAL FREAKS
+    </div>
+  </div>
+
+  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+</div>
+</div>
       </div>
     </section>
   );

@@ -36,14 +36,14 @@ export default function NewsBlogs() {
           <div className="relative pl-16">
             <span className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-[2px] bg-[#B81C15]"></span>
             <span className="absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-[#B81C15]"></span>
-            <h4 className="text-lg font-medium text-gray-900">
+            <h4 className="text-lg font-medium text-[#222]">
               News & Blogs
             </h4>
           </div>
         </div>
 
         <div className="lg:col-span-2">
-          <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-semibold text-gray-900 leading-[1.1] tracking-[-1px]">
+          <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-semibold text-[#222] leading-[1.1] tracking-[-1px]">
           Explore{" "}
           <span className="text-[#B81C15] italic font-medium"> Articles And <br className="hidden md:block" />
           Real-World </span>{" "} Cases </h2>
