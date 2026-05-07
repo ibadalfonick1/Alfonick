@@ -5,7 +5,7 @@ import Link from "next/link";
 const OurAgency = () => {
   return (
     <>
-      <section>
+      <section className="md:pt-20 pt-7">
         <div className="">
           <div className="container m-auto grid sm:grid-cols-13 grid-cols-1 md:gap-14 gap-5 py-10!">
             <div className="lg:col-start-1 lg:col-end-5 sm:col-start-1 sm:col-end-7 col-start-1 col-end-13 lg:[&_span]:text-2xl md:[&_span]:text-xl [&_span]:text-base sm:[&_p]:pt-8 [&_p]:pt-4">

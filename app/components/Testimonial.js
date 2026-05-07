@@ -29,25 +29,17 @@ const Testimonial = () => {
 
           <CarouselContent>
 
-            <CarouselItem className="relative">
+            <CarouselItem className="">
               <div
-                className="
-                pt-20 
-                pr-10
-                relative
-                [&>p]:text-[20px] 
-                [&>p]:text-white 
-                [&>p]:pb-7
-            
+                className=" pt-20 pr-10 relative [&>p]:text-[20px] [&>p]:text-white [&>p]:pb-7  
                 before:content-[''] 
                 before:absolute 
                 before:top-5 
                 before:left-0 
-                before:w-12.5
+                before:w-15
                 before:h-12.5
-                before:bg-[red]
-                before:bg-[url('/images/testimonial para vector.webp')] 
-                before:bg-contain 
+                before:bg-[url('/images/testimonialpara.webp')] 
+                before:bg-contain
                 before:bg-no-repeat
                 "
               >
@@ -61,21 +53,18 @@ const Testimonial = () => {
 
         
             <CarouselItem className="relative">
-              <div className="pt-20 pr-10 relative
-                [&>p]:text-[20px] 
-                [&>p]:text-white
-                [&>p]:pb-7
-
+              <div 
+               className=" pt-20 pr-10 relative [&>p]:text-[20px] [&>p]:text-white [&>p]:pb-7  
                 before:content-[''] 
                 before:absolute 
                 before:top-5 
                 before:left-0 
-                before:w-12.5
+                before:w-15
                 before:h-12.5
-                before:bg-[red]
-                before:bg-[url('/images/testimonial-para-vector.webp')] 
-                before:bg-contain 
-                before:bg-no-repeat">
+                before:bg-[url('/images/testimonialpara.webp')] 
+                before:bg-contain
+                before:bg-no-repeat
+                ">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
                 <h3 >Helena Wound</h3>
@@ -86,26 +75,18 @@ const Testimonial = () => {
 
             
             <CarouselItem className="relative">
-              <div className="pt-20 pr-10 relative
-                [&>p]:text-[20px] 
-                [&>p]:text-white 
-                [&>p]:pb-7 
-                [&>h3]:text-[24px] 
-                [&>h3]:text-white
-                [&>h3]:font-extrabold 
-                [&>span]:text-[16px]
-              [&>span]:text-white
-
+              <div 
+               className=" pt-20 pr-10 relative [&>p]:text-[20px] [&>p]:text-white [&>p]:pb-7  
                 before:content-[''] 
                 before:absolute 
                 before:top-5 
                 before:left-0 
-                before:w-12.5
+                before:w-15
                 before:h-12.5
-                before:bg-[red]
-                before:bg-[url('/images/testimonial-para-vector.webp')] 
-                before:bg-contain 
-                before:bg-no-repeat">
+                before:bg-[url('/images/testimonialpara.webp')] 
+                before:bg-contain
+                before:bg-no-repeat
+                ">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <div className="absolute bottom:0 [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:font-extrabold [&>span]:text-[16px] [&>span]:text-white">
                 <h3>Helena Wound</h3>

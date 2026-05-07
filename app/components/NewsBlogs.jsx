@@ -30,20 +30,28 @@ const articles = [
 
 export default function NewsBlogs() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12">
+    <section className="max-w-414 m-auto px-4 md:pt-20 pt-12 pb-20">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-9 mb-10">
         <div className="lg:col-span-1">
-          <div className="relative pl-16">
-            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-[2px] bg-[#B81C15]"></span>
+          <div className="relative pl-16 [&_h4]:text-2xl [&_h4]:font--medium">
+            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-0.5 bg-[#B81C15]"></span>
             <span className="absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-[#B81C15]"></span>
+<<<<<<< HEAD
             <h4 className="text-lg font-medium text-[#222]">
+=======
+            <h4 className="">
+>>>>>>> 51af2b4e6e3c229e13747a9d8d5fd065521eb30f
               News & Blogs
             </h4>
           </div>
         </div>
 
         <div className="lg:col-span-2">
+<<<<<<< HEAD
           <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-semibold text-[#222] leading-[1.1] tracking-[-1px]">
+=======
+          <h2 className="text-[36px] md:text-[44px] xl:text-[70px] lg:text-[60px] font-semibold text-gray-900 leading-[1.1] tracking-[-1px]">
+>>>>>>> 51af2b4e6e3c229e13747a9d8d5fd065521eb30f
           Explore{" "}
           <span className="text-[#B81C15] italic font-medium"> Articles And <br className="hidden md:block" />
           Real-World </span>{" "} Cases </h2>
@@ -67,21 +75,21 @@ export default function NewsBlogs() {
               </div>
             </Link>
 
-            <div className="mt-3 lg:mt-6">
+            <div className="mt-3 lg:mt-6 [&>a>h3]:text-base [&>a>h3]:font-medium [&>a>h3]:hover:text-[#B81C15]! [&>Link>h3]:transition">
               <Link href={item.link}>
-                <h3 className="text-[16px] font-medium text-[#000] group-hover:text-[#B81C15] transition">
+                <h3>
                   {item.title}
                 </h3>
               </Link>
 
-              <p className="text-[12px] text-[#636466] lg:mt-2 mt-2 lg:mb-4 mb-4">
+              <p className="text-xs text-[#636466] lg:mt-2 mt-2 lg:mb-4 mb-4 font-[Archivo]!">
                 {item.time}
               </p>
 
-              <div className="flex flex-wrap gap-2 mt-3">
+              <div className="flex flex-wrap gap-x-2 gap-y-6 mt-5">
                 {item.tags.map((tag, index) => (
                   <Link key={index} href={`/tag/${tag.toLowerCase()}`}>
-                    <span className="text-[12px] px-5 py-2.5 rounded-full bg-[3EFF0F0] border border-[#D0D1D1] text-[#636466] hover:bg-[#B81C15] hover:text-white transition cursor-pointer">
+                    <span className="text-[12px] px-3 py-2.5 rounded-full bg-[#eff0f0] border border-[#D0D1D1] text-[#636466] hover:bg-[#B81C15] hover:text-white transition cursor-pointer">
                       {tag}
                     </span>
                   </Link>

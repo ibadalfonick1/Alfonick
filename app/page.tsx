@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Creative from './components/Creative'
 import Services from './components/Services'
 import OurCulture from './components/OurCulture'
@@ -14,7 +14,7 @@ export default function Home() {
   return (
    <>
     
-    <Navbar />    
+    <Header />    
     <Creative />    
     <Services />    
     <OurCulture />
