@@ -3,8 +3,10 @@ import Image from "next/image";
 
 const AgencySnap = () => {
   return (
-    <div className="max-w-371 mx-auto px-4 pt-20 pb-10">
-      <div className="flex flex-col lg:flex-row items-start justify-between gap-8 pb-10">
+
+
+    <div className="max-w-371 mx-auto px-4 sm:pt-20 pt-10 pb-10">
+      <div className="flex flex-col lg:flex-row items-start justify-between lg:gap-8 sm:gap-4 gap-2 pb-10">
         <div className="flex flex-col sm:flex-row items-start gap-4 pb-5">
           <span className="px-6 py-3 rounded-full bg-[#B81C15]/5 text-[#B81C15] text-sm whitespace-nowrap">
             Who we are
@@ -16,7 +18,7 @@ const AgencySnap = () => {
         </div>
 
         <div className="max-w-150">
-          <p className="text-gray-600 lg:text-[24px] sm:text-[20px] text-[18px] leading-[1.3]">
+          <p className="text-gray-600 lg:text-[24px] sm:text-[20px] text-[17px] leading-[1.3]">
             Let's get acquainted! We're not your average digital marketing
             agency - we're a team of passionate individuals who eat, sleep, and
             breathe creativity, innovation, and all things digital.
@@ -26,7 +28,7 @@ const AgencySnap = () => {
 
       <div>
         <div className="grid grid-cols-3 gap-4">
-          <div className="lg:col-start-1 lg:col-end-2 col-start-1 col-end-4 [&>img]:w-full [&>img]:h-100 [&>img]:rounded-xl">
+          <div className="lg:col-start-1 lg:col-end-2 col-start-1 col-end-4 [&>img]:w-full md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5 [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_1.webp"
               alt="logo"
@@ -35,7 +37,7 @@ const AgencySnap = () => {
             />
           </div>
 
-          <div className="lg:col-start-2 lg:col-end-4 col-start-1 col-end-4 [&>img]:h-100 [&>img]:w-full  [&>img]:rounded-xl">
+          <div className="lg:col-start-2 lg:col-end-4 col-start-1 col-end-4 md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5 [&>img]:w-full [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_2.webp"
               alt="logo"
@@ -46,7 +48,7 @@ const AgencySnap = () => {
         </div>
 
         <div className="grid grid-cols-3 gap-4 my-4">
-          <div className="lg:col-start-1 lg:col-end-3 col-start-1 col-end-4 [&>img]:h-100 [&>img]:w-full [&>img]:rounded-xl">
+          <div className="lg:col-start-1 lg:col-end-3 col-start-1 col-end-4 md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5 [&>img]:w-full [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_3.webp"
               alt="logo"
@@ -55,7 +57,7 @@ const AgencySnap = () => {
             />
           </div>
 
-          <div className="lg:col-start-3 lg:col-end-4 col-start-1 col-end-4 [&>img]:w-full [&>img]:h-100 [&>img]:rounded-xl">
+          <div className="lg:col-start-3 lg:col-end-4 col-start-1 col-end-4 [&>img]:w-full md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5 [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_4.webp"
               alt="logo"
@@ -66,7 +68,7 @@ const AgencySnap = () => {
         </div>
 
         <div className="grid grid-cols-3 gap-4">
-          <div className="lg:col-start-1 lg:col-end-2 col-start-1 col-end-4 [&>img]:w-full [&>img]:h-100  [&>img]:rounded-xl">
+          <div className="lg:col-start-1 lg:col-end-2 col-start-1 col-end-4 [&>img]:w-full md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5  [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_5.webp"
               alt="logo"
@@ -75,7 +77,7 @@ const AgencySnap = () => {
             />
           </div>
 
-          <div className="lg:col-start-2 lg:col-end-4 col-start-1 col-end-4 [&>img]:h-100 [&>img]:w-full [&>img]:rounded-xl">
+          <div className="lg:col-start-2 lg:col-end-4 col-start-1 col-end-4 md:[&>img]:h-100 sm:[&>img]:h-75 [&>img]:h-62.5 [&>img]:w-full [&>img]:rounded-xl">
             <Image
               src="/images/Agency Snap_2.webp"
               alt="logo"

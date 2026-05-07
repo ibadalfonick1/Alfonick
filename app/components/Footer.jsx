@@ -12,16 +12,12 @@ import { MdOutlineAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <div className="heroBox relative bg-[radial-gradient(circle_at_center,#b81c15_0%,#000000_100%)] text-white sm:pt-16 pt-10 pb-8 mx-5 mb-6 rounded-2xl overflow-hidden"
-    >
+    <div className="heroBox z-99 relative bg-[radial-gradient(circle_at_center,#b81c15_0%,#000000_100%)] sm:pt-16 pt-10 pb-8 mx-3 mb-6 rounded-2xl overflow-hidden">
+
       <Contact />
 
-      <div
-        className="max-w-412 mx-auto px-4 flex flex-wrap lg:flex-nowrap gap-10 relative before:content-[''] before:absolute before:-top-16 before:left-0 before:w-[98%] before:h-px
-       before:bg-white
-      "
-      >
-        <div className="xl:basis-[30%] basis-full">
+      <div className="max-w-420 mx-auto px-3.75 md:pb-15 pb-8 flex flex-wrap lg:flex-nowrap gap-10 relative before:content-[''] before:absolute before:-top-16 before:left-0 before:right-0 before:w-[98%] before:m-auto before:h-px before:bg-white after:content-[''] after:absolute after:w-full after:h-full after:bg-[url('/images/footer Shadow.webp')] after:bg-contain after:bg-no-repeat after:-z-99">
+        <div className="xl:basis-[30%] lg:basis-[30%] basis-full">
           <Link href="/">
             <Image
               src="/images/alfonick.webp"
@@ -37,10 +33,10 @@ export default function Footer() {
             <span className="block"> consectetur adipiscing consect.</span>
           </p>
 
-          <div className="[&>strong]:text-[#FAFAFA] [&>strong]:text-md [&>strong]:tracking-[2px] [&>strong]:block [&>strong]:mb-3">
+          <div className="[&>strong]:text-[#FAFAFA] [&>strong]:text-lg [&>strong]:tracking-[2px] [&>strong]:block [&>strong]:mb-3">
             <strong>Social Media</strong>
 
-            <div className="flex gap-3 [&_a]:bg-white [&_a]:rounded-full [&_a]:p-2 [&_a]:text-[#b91b15] [&_a]:inline-flex [&_a]:items-center [&_a]:justify-center [&_a]:text-xl">
+            <div className="flex gap-3 [&_a]:bg-white [&_a]:hover:bg-[#b91b15] [&_a]:rounded-full [&_a]:p-2 [&_a]:hover:text-white [&_a]:text-[#b91b15] [&_a]:inline-flex [&_a]:items-center [&_a]:justify-center [&_a]:text-xl">
               <Link href="#">
                 <TiSocialFacebook />
               </Link>
@@ -57,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="basis-full md:basis-1/2 lg:basis-[15%] [&>h3]:text-[24px] [&>h3]:mb-5 sm:[&>h3]:mb-7 [&_li>a]:text-[16px] md:[&_li>a]:text-[18px] lg:[&_li>a]:text-[20px] md:[&_li_a]:text-[18px] lg:[&_li_a]:text-[20px] [&_li]:mb-4 [&_li]:tracking-[0.5px]">
+        <div className="basis-full md:basis-1/2 lg:basis-[20%] [&>h3]:text-[24px] [&>h3]:mb-5 sm:[&>h3]:mb-7 [&>h3]:text-white! [&_li>a]:text-[17px] md:[&_li>a]:text-[18px] lg:[&_li>a]:text-[20px] md:[&_li_a]:text-[18px] lg:[&_li_a]:text-[20px] [&_li]:mb-4 [&_li]:tracking-[0.5px] [&_li>a]:text-white [&_li>a]:hover:text-[#b41b15]">
           <h3 className="text-lg font-semibold ">Company</h3>
           <ul className="space-y-2 text-gray-200 text-sm">
             <li>
@@ -81,7 +77,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="sm:basis-full md:basis-1/3 lg:basis-[25%] [&>h3]:text-[24px] [&>h3]:mb-5 [&_li_a]:text-[16px] md:[&_li_a]:text-[18px] lg:[&_li_a]:text-[20px] [&_li]:mb-4 [&_li]:tracking-[0.8px]">
+        <div className="sm:basis-full md:basis-1/3 lg:basis-[25%] [&>h3]:text-[24px] [&>h3]:text-white! [&>h3]:mb-5 sm:[&>h3]:mb-7 [&_li_a]:text-[17px] md:[&_li_a]:text-[18px] lg:[&_li_a]:text-[20px] [&_li]:mb-4 [&_li]:tracking-[0.8px] [&_li>a]:text-white [&_li>a]:hover:text-[#b41b15]">
           <h3 className="text-lg font-semibold mb-5">Web Solution</h3>
           <ul className="space-y-2 text-gray-200 text-sm">
             <li>
@@ -105,46 +101,46 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="sm:basis-full md:basis-1/3 lg:basis-[25%] xl:pl-10 [&>h3]:text-[24px] [&>h3]:mb-5  [&_a]:text-[20px] [&_a]:block ">
+        <div className="sm:basis-full md:basis-1/3 lg:basis-[25%] [&>h3]:text-white! xl:pl-10 [&>h3]:text-[24px] [&>h3]:mb-5 sm:[&>h3]:mb-7 [&_a]:text-[20px] [&_a]:block ">
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
 
-          <div className="text-gray-200 text-sm [&_p]:mb-4 [&_p>a]:text-[16px] md:[&_p>a]:text-[18px] lg:[&_p>a]:text-[20px] [&_p]:text-[16px] md:[&_p]:text-[18px] lg:[&_p]:text-[20px] [&_p]:tracking-tight [&_p_a]:tracking-tight">
-            <p className="flex items-center gap-x-3 pt-0">
-              <FaMapMarkerAlt className="text-[#DD4242]" />
+          <div className="[&_p]:text-white [&_p>a]:text-white [&_p>a]:hover:text-[#b41b15] text-sm [&_p]:mb-4 [&_p>a]:text-[17px] md:[&_p>a]:text-[18px] lg:[&_p>a]:text-[20px] [&_p]:text-[17px] md:[&_p]:text-[18px] lg:[&_p]:text-[20px] [&_p]:tracking-tight [&_p_a]:tracking-tight">
+            <p className="flex items-start gap-x-3 pt-0">
+              <FaMapMarkerAlt className="text-[#DD4242] text-xl mt-1" />
               C-30, Block-5, Gulshan-e-iqbal, Karachi.
             </p>
 
             <p className="flex items-center gap-x-3 pt-0">
-              <BsFillTelephoneFill className="text-[#DD4242]" />
+              <BsFillTelephoneFill className="text-[#DD4242] text-xl" />
               <a href="tel:02134800227">021-34800227</a>
             </p>
 
             <p className="flex items-center gap-x-3 pt-0">
-              <IoMdMail className="text-[#DD4242]" />
+              <IoMdMail className="text-[#DD4242] text-xl" />
               <a href="mailto:info@alfonickinternational.com">
                 info@alfonickinternational.com
               </a>
             </p>
 
             <p className="flex items-center gap-x-3 pt-0">
-              <MdOutlineAccessTime className="text-[#DD4242]" />
+              <MdOutlineAccessTime className="text-[#DD4242] text-2xl" />
               Mon - Sat: 09:00am - 6:00 pm
             </p>
           </div>
         </div>
       </div>
 
-      <div className="max-w-412 mx-auto px-4 mt-12 border-t border-white/30 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-200 gap-3 [&>p]:text-[16px] lg:[&>p]:text-xl">
-        <p>©2024 Transparent. All rights reserved</p>
+      <div className="max-w-420 mx-auto px-3.75 mt-12 relative before:content-[''] before:absolute before:-top-3 before:left-auto before:right-auto before:w-[98%] before:m-auto before:h-px before:bg-white pt-6 flex flex-col md:flex-row justify-between items-center gap-3 [&>p]:text-[17px] lg:[&>p]:text-xl [&>p]:text-white">
+        <p>©2026 Transparent. All rights reserved</p>
 
-        <div className="flex gap-3 flex-wrap justify-center [&_a]:text-[16px] lg:[&_a]:text-[18px] [&_span]:text-base lg:[&_span]:text-xl">
-          <a href="#">Privacy Policy</a>
+        <div className="flex sm:gap-3 gap-2 flex-wrap justify-center [&_a]:text-[16px] lg:[&_a]:text-[18px] [&_a]:text-white [&_a]:hover:text-[#b41b15] [&_span]:text-base lg:[&_span]:text-xl [&_span]:text-white">
+          <Link href="#">Privacy Policy</Link>
           <span>|</span>
-          <a href="#">Terms & Conditions</a>
+          <Link href="#">Terms & Conditions</Link>
           <span>|</span>
-          <a href="#">Cookies Policy</a>
+          <Link href="#">Cookies Policy</Link>
           <span>|</span>
-          <a href="#">Map</a>
+          <Link href="#">Map</Link>
         </div>
       </div>
     </div>
