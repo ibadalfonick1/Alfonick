@@ -1,4 +1,7 @@
-import { FaArrowRight } from "react-icons/fa";
+
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { GoLightBulb } from "react-icons/go";
+import { IoMdTime } from "react-icons/io";
 
 export default function CareersPage() {
   return (
@@ -9,19 +12,25 @@ export default function CareersPage() {
             <span className="text-xs px-5 py-1.5 bg-[#B81C150D] border border-[#B81C150D] text-[#B81C15] rounded-full">
               OUR CULTURE
             </span>
-            <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-bold text-[#222] leading-[1.1] tracking-[-1px] lg:mt-[15px] mt-[25px]">
-              Why Work <span className="text-[#B81C15] italic block">With Us</span>
+
+            <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-bold text-[#222] leading-[1.1] tracking-[-1px] mt-3.75">
+              Why Work{" "}
+              <span className="text-[#B81C15] italic block">With Us</span>
             </h2>
           </div>
-          <p className="text-[#22222299] xl:text-2xl md:text-lg text-base lg:text-xl md: max-w-[480px]">
-            We don’t just build products — we build careers. Join a team where your growth shapes the future.
+          <p
+            className="text-[#22222299] text-2xl 
+          max-w-120"
+          >
+            We don’t just build products — we build careers. Join a team where
+            your growth shapes the future.
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-6 bg-white border rounded-2xl p-6 relative shadow-md overflow-hidden">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <FaArrowTrendUp className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -29,15 +38,17 @@ export default function CareersPage() {
               <p className="text-xs text-[#222222B2]">Hours training yearly</p>
             </div>
             <h3 className="font-bold text-2xl text-[#222]">Growth</h3>
-            <p className="text-[14px] text-[#222222B2] mt-2">
-              Continuous learning with mentorship programs, conferences, and personal development budgets.
+          
+            <p className="text-sm text-[#222222B2] mt-2">
+              Continuous learning with mentorship programs, conferences, and
+              personal development budgets.
             </p>
             <div className="absolute bottom-0 left-0 w-full h-1 bg-[#B81C15]" />
           </div>
 
           <div className="col-span-12 md:col-span-3 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <GoLightBulb className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -54,7 +65,7 @@ export default function CareersPage() {
 
           <div className="col-span-12 md:col-span-3 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <IoMdTime className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -71,7 +82,7 @@ export default function CareersPage() {
 
           <div className="col-span-12 md:col-span-3 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <GoLightBulb className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -83,12 +94,11 @@ export default function CareersPage() {
             <p className="text-[14px] text-[#222222B2] mt-2">
               Freedom to experiment with cutting-edge tech and bring bold ideas to life every day.
             </p>
-            <div className="absolute mt-auto bottom-0 left-0 w-full h-1 bg-[#B81C15]" />
           </div>
 
-          <div className="col-span-12 md:col-span-3 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
+          <div className="col-span-12 md:col-span-3 bg-white border relative rounded-2xl p-6">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <IoMdTime className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -105,7 +115,7 @@ export default function CareersPage() {
 
           <div className="col-span-12 md:col-span-6 bg-white border relative rounded-2xl p-6 relative shadow-md overflow-hidden">
             <div className="w-10 h-10 flex items-center justify-center bg-[#B81C150D] rounded-lg mb-10">
-              <FaArrowRight className="text-[#B81C15] text-xl" />
+              <FaArrowTrendUp className="text-[#B81C15] text-xl" />
             </div>
 
             <div className="absolute top-4 right-4 text-right mb-10">
@@ -119,7 +129,6 @@ export default function CareersPage() {
             </p>
             <div className="absolute bottom-0 left-0 w-full h-1 bg-[#B81C15]" />
           </div>
-
         </div>
       </div>
     </section>

@@ -2,7 +2,8 @@ import Image from "next/image";
 
 const WhyChoose = () => {
   return (
-    <div className="pt-10 pb-24">
+
+    <div className="bg-[#ddd] lg:pt-150 md:pt-80 pt-50 pb-24">
       <div className="container grid sm:grid-cols-3 grid-cols-1 md:gap-14 gap-5 py-10">
         <div className="sm:col-start-1 sm:col-end-2 col-start-1 col-end-4 sm:text-end text-center lg:[&_span]:text-2xl md:[&_span]:text-xl [&_span]:text-base">
           <span className="relative inline-block pl-8 before:content-[''] before:absolute before:-left-10 before:top-0 before:bottom-0 before:m-auto before:w-15 before:h-3 before:bg-[url('/images/line.webp')] before:bg-no-repeat before:bg-contain">
@@ -18,7 +19,7 @@ const WhyChoose = () => {
       </div>
 
       <div className="container max-w-300 grid lg:grid-cols-3 grid-cols-1 gap-10 items-center pt-12!">
-        {/* LEFT */}
+      
         <div className="flex flex-col gap-10 lg:pr-5">
           <div className="flex items-center gap-5">
             <h3 className="text-4xl lg:text-[64px] font-bold">01.</h3>
@@ -113,6 +114,7 @@ const WhyChoose = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
