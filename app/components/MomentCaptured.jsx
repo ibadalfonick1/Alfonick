@@ -53,8 +53,6 @@ export default function GallerySection() {
 
  const renderGallery = (images = []) => (
   <div className="space-y-4">
-
-    {/* Row 1 */}
     <div className="grid grid-cols-3 gap-4">
       {images?.[0] && (
         <div className="lg:col-start-1 lg:col-end-2 col-span-3">
@@ -81,7 +79,6 @@ export default function GallerySection() {
       )}
     </div>
 
-    {/* Row 2 */}
     <div className="grid grid-cols-3 gap-4">
       {images?.[2] && (
         <div className="lg:col-start-1 lg:col-end-3 col-span-3">
@@ -108,7 +105,6 @@ export default function GallerySection() {
       )}
     </div>
 
-    {/* Row 3 */}
     <div className="grid grid-cols-3 gap-4">
       {images?.[4] && (
         <div className="lg:col-start-1 lg:col-end-2 col-span-3">
@@ -135,7 +131,6 @@ export default function GallerySection() {
       )}
     </div>
 
-    {/* Row 4 (optional safe) */}
     {images?.[6] && images?.[7] && (
       <div className="grid grid-cols-3 gap-4">
         <div className="lg:col-start-1 lg:col-end-3 col-span-3">
@@ -162,7 +157,7 @@ export default function GallerySection() {
   </div>
 );
   return (
-    <section className="bg-[#f3f3f3] py-16 lg:py-24 px-4">
+    <section className="bg-[#EEEEEE] py-16n lg:py-24 px-4 m-5 rounded-[20px]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <span className="text-xs px-5 py-1.5 bg-[#B81C150D] border border-[#B81C150D] text-[#B81C15] rounded-full">

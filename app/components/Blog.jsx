@@ -74,11 +74,11 @@ export default function Blog() {
      <section className="max-w-6xl mx-auto px-4 py-16">
 
       <div className="text-center mb-12">
-            <span className="text-xs px-5 py-1.5 bg-[#B81C150D] border border-[#B81C150D] text-[#B81C15] rounded-full">
+            <span className="text-xs px-5 py-1.5 bg-[#B81C150D] !font-bold border border-[#B81C150D] text-[#B81C15] rounded-full">
              Frequently Asked Questions
              </span>
-        <h2 className="text-[36px] md:text-[44px] font-['Trump_Gothic_Pro'] lg:text-[56px] font-bold text-[#222] leading-[1.1] tracking-[-1px] mt-[25px] uppercase">
-          Simple Tips That <span className="block"> Actually Work</span>
+        <h2 className="text-[36px] md:text-[44px] font-['Trump_Gothic_Pro'] lg:text-[56px] !font-bold text-[#222] leading-[1.1] tracking-[-1px] mt-[25px] uppercase">
+          Simple Tips That <span className="block !font-bold"> Actually Work</span>
         </h2>
       </div>
 
