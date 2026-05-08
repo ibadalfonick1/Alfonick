@@ -1,14 +1,19 @@
-
-import NewsBlogs from "../components/Blog";
-import Footer from '../components/Footer'
-
-const Blog = () => {
+import Header from "../components/Header";
+import BlogsHero from "../components/BlogsHero";
+import Blog from "../components/Blog";
+import Footer from "../components/Footer";
+const Blogs = () => {
   return (
-    <div>
-      <NewsBlogs />
-      <Footer />
-    </div>
+    <>
+
+      <Header />
+      <BlogsHero />
+      <Blog />
+      <Footer /> 
+
+    </>
+
   )
 }
 
-export default Blog
+export default Blogs

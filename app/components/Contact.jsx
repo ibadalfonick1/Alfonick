@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div className="mt-10 max-w-236 m-auto text-center [&>span]:border [&>span]:border-[#FFFFFF26] [&>span]:text-white [&>span]:shadow-[0_1px_7px_1px_#FFFFFF1A] [&>span]:rounded-full [&>span]:px-10 [&>span]:py-3 [&>span]:text-sm [&>h2]:text-[28px] sm:[&>h2]:text-[36px] md:[&>h2]:text-[42px] md:[&>h2]:2 lg:[&>h2]:text-[48px] [&>h2]:text-white! [&>h2]:mb-4 [&>h2]:mt-6 sm:[&>h2]:mt-4">
-        <span> Contacty us</span>
+        <span> Contact Us</span>
         <h2>Get In Touch With Us</h2>
       </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
         <div className="flex justify-center mt-6">
           <button
             type="submit"
-            className="relative rounded-full bg-white hover:bg-[#b81c15] text-black py-3 pr-8 pl-12 uppercase cursor-pointer before:content-[''] before:absolute before:left-7 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:bg-black before:rounded-full"
+            className="relative rounded-full bg-white hover:bg-[#b81c15] text-black hover:text-white py-3 pr-8 pl-12 uppercase cursor-pointer before:content-[''] before:absolute before:left-7 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:bg-black hover:before:bg-white before:rounded-full"
           >
             Send Message
           </button>

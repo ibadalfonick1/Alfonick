@@ -62,7 +62,7 @@ export default function NewsBlogs() {
                   alt={item.title}
                   width={300}
                   height={500}
-                  className="w-full h-[340px] md:h-[280px] lg:h-[380px] object-cover transition duration-500 ease-in-out group-hover:scale-105 group-hover:brightness-90"
+                  className="w-full h-84 md:h-[280px] lg:h-[380px] object-cover transition duration-500 ease-in-out group-hover:scale-105 group-hover:brightness-90"
                 />
               </div>
             </Link>

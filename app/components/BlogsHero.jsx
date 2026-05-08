@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AboutHero = () => {
+const CareerHero = () => {
   return (
     <>
 
@@ -8,11 +8,13 @@ const AboutHero = () => {
   
   <div className="absolute left-1/2 top-1/2 
     -translate-x-1/2 -translate-y-1/2
-    w-250 h-250 rounded-full
-    bg-[radial-gradient(circle,_rgba(255,0,0,0.9)_0%,_rgba(255,0,0,0.45)_25%,_rgba(255,0,0,0.12)_55%,_transparent_100%)]">
+    w-250 h-250 rounded-full bg-[radial-gradient(circle,_rgba(255,0,0,0.9)_0%,_rgba(255,0,0,0.45)_25%,_rgba(255,0,0,0.12)_55%,_transparent_100%)] -z-9 ">
   </div>
 
-  <div className='relative z-10 px-5 text-center xl:[&>h1]:text-[90px]
+   <span className='shadow-[0_-1px_7px_1px_#FFFFFF80] text-white text-[16px] text:font-bold uppercase block text-center italic m-auto px-6 py-2 border w-fit rounded-4xl mb-1'> Our Gallery </span>
+   
+  <div className='relative z-10 px-5 text-center 
+    xl:[&>h1]:text-[90px]
     lg:[&>h1]:text-[70px]
     md:[&>h1]:text-[50px] 
     sm:[&>h1]:text-[36px]
@@ -26,20 +28,22 @@ const AboutHero = () => {
     [&>p]:m-auto 
     [&>p]:max-w-225'>
 
-    <h1>About Us</h1>
-
+    <h1>News & Insights </h1>
     <p>
-      We specialize in website development, branding, and promotion 
-      for developers, large manufacturing companies, transportation 
-      companies, and FMCG companies.
+      A visual journey through our creativity, teamwork, and success stories
     </p>
 
   </div>
 
 </section>
 
+
+
+
+ 
+
     </>
   )
 }
 
-export default AboutHero
+export default CareerHero
