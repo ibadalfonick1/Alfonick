@@ -69,7 +69,7 @@ const articles = [
   },
 ];
 
-export default function NewsBlogs() {
+export default function Blog() {
   return (
      <section className="max-w-6xl mx-auto px-4 py-16">
 
