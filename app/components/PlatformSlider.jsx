@@ -73,71 +73,73 @@ export default function PlatformSlider() {
             </span>
           </h2>
         </div>
-        <div className="overflow-hidden">
-        <Carousel
-          setApi={setApi}
-          opts={{
-  loop: true,
-  align: "center",
-  skipSnaps: false,
-          }}
-          className="w-full touch-pan-y"
+
+<div className="overflow-hidden pl-4">
+  <Carousel
+    setApi={setApi}
+    opts={{
+      loop: true,
+      align: "start",
+      skipSnaps: false,
+    }}
+    className="w-full"
+  >
+    <CarouselContent className="-ml-3 flex items-stretch">
+      {platforms.map((item, index) => (
+        <CarouselItem
+          key={index}
+          className="
+            pl-4
+            basis-1/2
+            sm:basis-1/3
+            md:basis-1/4
+            lg:basis-1/5
+          "
         >
-          <CarouselContent className="ml-0 flex items-stretch">
+          <Card className="h-[140px] md:h-[160px] rounded-[12px] border border-[#22222280] shadow-none bg-white">
+            <CardContent className="flex items-center justify-center h-full">
+              <img
+                src={item.logo}
+                alt={item.name}
+                className="h-7 md:h-8 object-contain"
+              />
+            </CardContent>
+          </Card>
+        </CarouselItem>
+      ))}
+    </CarouselContent>
+  </Carousel>
+</div>
 
-            {platforms.map((item, index) => (
-              <CarouselItem
-                key={index}
-                className="
-                pl-4
-                basis-1/2
-                sm:basis-1/3
-                md:basis-1/4
-                lg:basis-1/5
-                ">
-                <Card className="h-[160px] md:h-[180px] rounded-[12px] border border-[#22222280] shadow-none bg-white cursor-pointer transition-all duration-300">
-                  <CardContent className="flex items-center justify-center h-full">
-
-                    <img
-                      src={item.logo}
-                      alt={item.name}
-                      className="h-7 md:h-8 object-contain"
-                    />
-
-                  </CardContent>
-                </Card>
-              </CarouselItem>
-            ))}
-
-          </CarouselContent>
-        </Carousel>
-        </div>
-
-        <div className="flex justify-center items-center gap-3 mt-10">
-
-          {platforms.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => api?.scrollTo(index)}
-              className={`
-                transition-all duration-300
-                rounded-full
-                flex items-center justify-center
-                ${
-                  current === index
-                    ? "w-5 h-5 border-2 border-[#B81C15]"
-                    : "w-2.5 h-2.5 bg-[#1E1E1E]"
-                }
-              `}
-            >
-              {current === index && (
-                <span className="w-2 h-2 bg-[#B81C15] rounded-full" />
-              )}
-            </button>
-          ))}
-
-        </div>
-
+       <div className="flex justify-center items-center gap-[5px] mt-8">
+  {platforms.map((_, index) => (
+    <button
+      key={index}
+      onClick={() => api?.scrollTo(index)}
+      className={`
+        w-4 h-4 rounded-full border-2
+        flex items-center justify-center
+        transition-all duration-300
+        ${
+          current === index
+            ? "border-[#B81C15]"
+            : "border-transparent"
+        }
+      `}
+    >
+      <span
+        className={`
+          rounded-full transition-all duration-300
+          ${
+            current === index
+              ? "w-2 h-2 bg-[#B81C15]"
+              : "w-2.5 h-2.5 bg-[#1E1E1E]"
+          }
+        `}
+      />
+    </button>
+  ))}
+</div>
       </div>
 
     </section>

@@ -42,7 +42,7 @@ export default function ApplicationProcess() {
         <div className="text-center lg:mb-24 mb-15">
           <h2 className="lg:text-[51px] md:text-5xl sm:text-4xl text-[34px] !font-bold leading-[1.1]">
             Application{" "}
-            <span className="text-[#B81C15]">
+            <span className="text-[#B81C15] !font-bold">
               Process
             </span>
           </h2>

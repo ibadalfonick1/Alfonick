@@ -1,8 +1,6 @@
-// import { FaArrowTrendUp } from "react-icons/fa6";
-// import { GoLightBulb } from "react-icons/go";
-// import { IoMdTime } from "react-icons/io";
-
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { GoLightBulb } from "react-icons/go";
+import { IoMdTime } from "react-icons/io";
 
 export default function CareersPage() {
   return (
@@ -20,11 +18,8 @@ export default function CareersPage() {
             </h2>
           </div>
           <p
-            className="text-[#22222299] text-2xl 
-          max-w-120"
-          >
-            We don’t just build products — we build careers. Join a team where
-            your growth shapes the future.
+            className="text-[#22222299] text-base md:text-lg lg:text-2xl max-w-150">
+            We don't just build products — we build careers. Join a team where your growth is our mission and every voice shapes the future.
           </p>
         </div>
 
@@ -32,13 +27,13 @@ export default function CareersPage() {
 
   <div className="col-span-12 lg:col-span-5 bg-white border rounded-2xl p-6 relative shadow-md overflow-hidden">
     <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-      <FaArrowRight className="text-[#B81C15] text-xl" />
+      <FaArrowTrendUp className="text-[#B81C15] text-xl" />
     </div>
 
     <div className="absolute top-4 right-4 text-right mb-10">
       <p className="text-[#E31C1C] font-bold text-[30px]">200+</p>
       <p className="text-xs text-[#222222B2]">
-        Hours training yearly
+        Hours of training yearly
       </p>
     </div>
 
@@ -59,7 +54,7 @@ export default function CareersPage() {
 
       <div className="col-span-12 md:col-span-6 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
         <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-          <FaArrowRight className="text-[#B81C15] text-xl" />
+          <GoLightBulb className="text-[#B81C15] text-xl" />
         </div>
 
         <div className="absolute top-4 right-4 text-right mb-10">
@@ -83,7 +78,7 @@ export default function CareersPage() {
 
       <div className="col-span-12 md:col-span-6 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
         <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-          <FaArrowRight className="text-[#B81C15] text-xl" />
+          <IoMdTime className="text-[#B81C15] text-xl" />
         </div>
 
         <div className="absolute top-4 right-4 text-right mb-10">
@@ -112,7 +107,7 @@ export default function CareersPage() {
     <div className="grid grid-cols-12 gap-6">
       <div className="col-span-12 md:col-span-6 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
         <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-          <FaArrowRight className="text-[#B81C15] text-xl" />
+          <GoLightBulb className="text-[#B81C15] text-xl" />
         </div>
 
         <div className="absolute top-4 right-4 text-right mb-10">
@@ -136,7 +131,7 @@ export default function CareersPage() {
 
       <div className="col-span-12 md:col-span-6 bg-white border rounded-2xl p-6 relative flex flex-col overflow-hidden">
         <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-          <FaArrowRight className="text-[#B81C15] text-xl" />
+          <IoMdTime className="text-[#B81C15] text-xl" />
         </div>
 
         <div className="absolute top-4 right-4 text-right mb-10">
@@ -160,12 +155,9 @@ export default function CareersPage() {
 
     </div>
   </div>
-
-
-  {/* BIG CARD */}
   <div className="col-span-12 lg:col-span-5 bg-white border relative rounded-2xl p-6 shadow-md overflow-hidden">
     <div className="w-10 h-10 flex items-center justify-center bg-[#E31C1C1A] rounded-lg mb-10">
-      <FaArrowRight className="text-[#B81C15] text-xl" />
+      <FaArrowTrendUp className="text-[#B81C15] text-xl" />
     </div>
 
     <div className="absolute top-4 right-4 text-right mb-10">
