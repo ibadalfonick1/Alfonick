@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function AboutWhyChoose() {
   return (
@@ -15,7 +17,6 @@ export default function AboutWhyChoose() {
 
       <div className="max-w-371 m-auto sm:px-4 px-0 pt-4 grid md:grid-cols-2 gap-6 lg:gap-16 items-center">
         
-        {/* Image */}
         <div className="rounded-2xl overflow-hidden">
           <Image
             src="/images/About Why Choose.webp"
@@ -99,13 +100,13 @@ export default function AboutWhyChoose() {
 
           </ul>
 
-          {/* Button */}
-          <button
+          
+          <Link href=""
             type="button"
             className="relative rounded-full bg-black hover:bg-[#b81c15] text-white py-3 pr-8 pl-12 uppercase cursor-pointer before:content-[''] before:absolute before:left-7 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:bg-white before:rounded-full"
           >
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </section>
