@@ -57,7 +57,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold ">Company</h3>
           <ul className="space-y-2 text-gray-200 text-sm">
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
               <a href="#">Service</a>
@@ -69,10 +69,10 @@ export default function Footer() {
               <a href="#">Contact</a>
             </li>
             <li>
-              <a href="#">Career</a>
+              <a href="/careers">Career</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/blogs">Blog</a>
             </li>
           </ul>
         </div>
