@@ -7,7 +7,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -15,7 +15,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -23,7 +23,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -31,7 +31,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -39,7 +39,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -47,7 +47,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -55,7 +55,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     link: "/#",
   },
   {
@@ -63,7 +63,7 @@ const articles = [
     image: "/images/Blog_img.webp",
     date: "April 23, 2025",
     category: "TECH",
-    title: "AI Driven: Unlocking The Magic Of Imaginative Design Top-Notch",
+    title: "Aladdin: unlocking the magic of imaginative design top-notch",
     tag: "",
     link: "/#",
   },
@@ -71,45 +71,48 @@ const articles = [
 
 export default function Blog() {
   return (
-     <section className="max-w-6xl mx-auto px-4 py-16">
 
-      <div className="text-center mb-12">
-            <span className="text-xs px-5 py-1.5 bg-[#B81C150D] !font-bold border border-[#B81C150D] text-[#B81C15] rounded-full">
-             Frequently Asked Questions
-             </span>
-        <h2 className="text-[36px] md:text-[44px] font-['Trump_Gothic_Pro'] lg:text-[56px] !font-bold text-[#222] leading-[1.1] tracking-[-1px] mt-[25px] uppercase">
-          Simple Tips That <span className="block !font-bold"> Actually Work</span>
+    <section className=" px-5 py-16">
+      <div className="max-w-360 mx-auto">
+      <div className="text-center mb-12 [&>span]:text-[#B81C15] [&>span]:px-6 [&>span]:py-3 [&>span]:rounded-4xl [&>span]:w-fit [&>span]:m-auto [&>span]:bg-[#B81C15]/5 ">
+        <span> LATEST NEWS & INSIGHTS </span>
+
+        <h2 className="text-[36px] md:text-[44px] font-['Trump_Gothic_Pro'] lg:text-[56px] font-bold! text-[#222] leading-[1.1] tracking-[-1px] mt-6.25 uppercase">
+          Simple Tips That{" "}
+          <span className="block font-bold!"> Actually Work</span>
         </h2>
       </div>
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:gap-12 gap-8">
-
-  {articles.map((item) => (
-    <div key={item.id}>
-      <Link href={item.link} className="block overflow-hidden rounded-xl">
-        <Image
-          src={item.image}
-          alt={item.title}
-          width={600}
-          height={400}
-          className="w-full h-[320px] object-cover transition duration-500 hover:scale-105"/>
-      </Link>
-      <div className="mt-2">
-        <div className="flex items-center gap-3 text-lg text-[#B81C15]">
-          <span>{item.date}</span>
-          <span className="mx-2 w-[26px] h-[2px] rounded-full bg-[#B81C15] inline-block"></span>
-          <span>{item.category}</span>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-12 gap-8">
+        {articles.map((item) => (
+          <div key={item.id}>
+            <Link href={item.link} className="block overflow-hidden rounded-xl">
+              <Image
+                src={item.image}
+                alt={item.title}
+                width={600}
+                height={400}
+                className="w-full 
+          h-80 object-cover transition duration-500 hover:scale-105"
+              />
+            </Link>
+            <div className="mt-2">
+              <div className="flex items-center gap-2 text-lg text-[#B81C15] [&>span]:mt-2">
+                <span>{item.date}</span>
+                <span className="mx-2 w-6.5 h-0.5 rounded-full bg-[#B81C15] inline-block"></span>
+                <span>{item.category}</span>
+              </div>
+              <Link href={item.link}>
+                <h3 className="mt-2 lg:text-[24px] md:text-xl text-lg font-semibold text-[#222] leading-snug hover:text-[#B81C15] transition">
+                  {item.title}
+                </h3>
+              </Link>
+              <p className="mt-2 text-sm text-gray-600">{item.tag}</p>
+            </div>
+          </div>
+        ))}
         </div>
-        <Link href={item.link}>
-          <h3 className="mt-2 lg:text-[22px] md:text-xl text-lg font-semibold text-[#222] leading-snug hover:text-[#B81C15] transition">
-            {item.title}</h3>
-        </Link>
-        <p className="mt-2 text-sm text-gray-600">
-          {item.tag}</p>
       </div>
-    </div>
-  ))}
-</div>
     </section>
   );
 }
