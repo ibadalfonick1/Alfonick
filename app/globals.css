@@ -147,7 +147,7 @@ header .container{
 }
 
 .animate-spin-slow {
-  animation: spinSlow 3s linear infinite;
+  animation: spinSlow 10s linear infinite;
 }
 
 @keyframes marquee {
@@ -169,11 +169,11 @@ header .container{
 }
 
 .animate-marquee {
-  animation: marquee 15s linear infinite;
+  animation: marquee 50s linear infinite;
 }
 
 .animate-marquee-reverse {
-  animation: marqueeReverse 15s linear infinite;
+  animation: marqueeReverse 50s linear infinite;
 }
 
 @media(max-width:1480px){

@@ -20,14 +20,12 @@ const page = () => {
     <AboutOurCompany />
     <BrandMarquee />
     <Process />
+    <AboutWhyChoose />  
     <PlatformSlider />
     <AgencySnap/>  
     <FAQ />   
     <Footer />
-    <AboutWhyChoose />
-    <AgencySnap/>  
-    <FAQ />   
-    <Footer />   
+    
 
     </>
   )
