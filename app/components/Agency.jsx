@@ -49,7 +49,8 @@ const Agency = () => {
               muted
               loop
             >
-              <source src="/video/Alfonick video.mp4" type="video/mp4" />
+              <source src="https://video.zig.ht/api/videos/file/1778493541143-114155780.mp4" />
+
             </video>
 
             {/* PLAY BUTTON (also only video control) */}

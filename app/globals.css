@@ -100,8 +100,7 @@ header .container{
   animation-play-state: paused !important;
 }
 
-
-@keyframes scrollLeft {
+/* @keyframes scrollLeft {
   0% {
     transform: translateX(0%);
   }
@@ -112,6 +111,21 @@ header .container{
 
 .scrollLeft {
   animation: scrollLeft 5s linear infinite;
+} */
+
+@keyframes scrollLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.scrollLeft {
+  animation: scrollLeft 15s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 

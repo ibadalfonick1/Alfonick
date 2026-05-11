@@ -58,23 +58,39 @@ const WhyChoose = () => {
           <div className="pointer-events-none absolute bottom-0 left-0 w-full h-24 bg-linear-to-t from-white/80 to-transparent z-10"></div>
 
           <div className="h-150 overflow-hidden">
-            <div className="scroll-up group-hover:[animation-play-state:paused] flex flex-col gap-5 [&_img]:rounded-xl">
-              <Image src="/images/whychoose_1.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_2.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_3.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_1.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_2.webp" width={300} height={500} alt="" />
-            </div>
+             <div className="scroll-up flex flex-col gap-5 will-change-transform">
+
+    <div className="flex flex-col gap-5 [&_img]:rounded-xl">
+      <Image src="/images/whychoose_1.webp" width={300} height={500} alt="" />
+      <Image src="/images/whychoose_2.webp" width={300} height={500} alt="" />
+      <Image src="/images/whychoose_3.webp" width={300} height={500} alt="" />
+    </div>
+
+    <div className="flex flex-col gap-5 [&_img]:rounded-xl">
+      <Image src="/images/whychoose_1.webp" width={300} height={500} alt="" />
+      <Image src="/images/whychoose_2.webp" width={300} height={500} alt="" />
+      <Image src="/images/whychoose_3.webp" width={300} height={500} alt="" />
+    </div>
+
+  </div>
           </div>
 
           <div className="h-150 overflow-hidden">
-            <div className="scroll-down group-hover:[animation-play-state:paused] flex flex-col gap-5 [&_img]:rounded-xl">
-              <Image src="/images/whychoose_4.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_5.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_6.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_4.webp" width={300} height={500} alt="" />
-              <Image src="/images/whychoose_5.webp" width={300} height={500} alt="" />
-            </div>
+            <div className="scroll-down flex flex-col gap-5 will-change-transform group-hover:[animation-play-state:paused]">
+
+    <div className="flex flex-col gap-5  [&_img]:rounded-xl">
+      <Image src="/images/whychoose_4.webp" width={300} height={500} alt="" className="block" />
+      <Image src="/images/whychoose_5.webp" width={300} height={500} alt="" className="block" />
+      <Image src="/images/whychoose_6.webp" width={300} height={500} alt="" className="block" />
+    </div>
+
+    <div className="flex flex-col gap-5  [&_img]:rounded-xl">
+      <Image src="/images/whychoose_4.webp" width={300} height={500} alt="" className="block" />
+      <Image src="/images/whychoose_5.webp" width={300} height={500} alt="" className="block" />
+      <Image src="/images/whychoose_6.webp" width={300} height={500} alt="" className="block" />
+    </div>
+
+  </div>
           </div>
         </div>
 

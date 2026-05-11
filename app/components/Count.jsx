@@ -12,7 +12,7 @@ const Count = () => {
       Unlock Your <span className="italic font-semi-bold!">Brand </span> Potential With 
       <span className="text-[#B81C15] font-bold!"> Strategic</span> Digital Marketing 
       <span className="italic">That </span> Drives Engagement, <Image src="/images/count img_1.webp" alt="logo" width={70} height={12} className="inline rounded-4xl mb-2" />  Growth, And 
-      Measurable <span className="text-[#B81C15] font-bold!">Results In</span>  <Image src="/images/people.webp" alt="logo" width={100} height={20} className="inline mb-0.5]" />
+      Measurable <span className="text-[#B81C15] font-bold!">Results In</span>  <Image src="/images/people.webp" alt="logo" width={100} height={20} className="inline mb-0.5] pr-2" />
        Today Competitive.
     </h2>
 

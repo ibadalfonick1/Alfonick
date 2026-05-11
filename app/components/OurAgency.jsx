@@ -27,36 +27,31 @@ const OurAgency = () => {
         </div>
 
         <div className="overflow-hidden">
-          <div className="flex gap-8 [&_img]:h-auto [&_img]:rounded-xl pb-10 scrollLeft">
+           <div className="scrollLeft flex gap-8 w-max will-change-transform group-hover:paused">
 
-            <Image src="/images/agency_1.webp" alt="logo" width={500} height={100} />
+  
+    <Image src="/images/agency_1.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_2.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_3.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_4.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_5.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
 
-            <Image src="/images/agency_2.webp" alt="logo" width={500} height={100} />
+   
+    <Image src="/images/agency_1.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_2.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_3.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_4.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_5.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
 
-            <Image src="/images/agency_3.webp" alt="logo" width={500} height={100} />
+    <Image src="/images/agency_1.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
+    <Image src="/images/agency_2.webp" alt="" width={500} height={100} className="rounded-xl h-auto" />
 
-            <Image src="/images/agency_4.webp" alt="logo" width={500} height={100} />
+  </div>
 
-            <Image src="/images/agency_5.webp" alt="logo" width={500} height={100} />
-
-
-             <Image src="/images/agency_1.webp" alt="logo" width={500} height={100} />
-
-            <Image src="/images/agency_2.webp" alt="logo" width={500} height={100} />
-
-            <Image src="/images/agency_3.webp" alt="logo" width={500} height={100} />
-
-            <Image src="/images/agency_4.webp" alt="logo" width={500} height={100} />
-
-            <Image src="/images/agency_5.webp" alt="logo" width={500} height={100} />
-
-
-          </div>
-
-          <div className="text-center">
+          <div className="text-center mt-7">
            <Link
             href="/our-gallery"
-            className="headerBtn group relative inline-block border rounded-full py-3 pr-5 pl-15 hover:pr-15 hover:pl-5 text-black transition-all duration-300 text-center"
+            className="headerBtn group relative inline-block border rounded-full py-3.75 pr-5 pl-15 hover:pr-15 hover:pl-5 text-black transition-all duration-300 text-center"
           >
             <span className="inline-block transition-all duration-300">
               View All
