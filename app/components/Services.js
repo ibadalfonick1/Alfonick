@@ -37,8 +37,8 @@ export default function Services() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-9 mb-8">
           <div className="sm:col-start-1 sm:col-end-2 col-start-1 col-end-5">
             <div className="relative pl-16 mb:5 lg:mb-8">
-              <span className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-0.5 bg-red-600"></span>
-              <span className="absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-red-600"></span>
+              <span className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-0.5 bg-[#B81C15]"></span>
+              <span className="absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-[#B81C15]"></span>
 
               <h4 className="text-xl font-medium text-gray-900 tracking-tight">
                 Our Services
@@ -52,11 +52,11 @@ export default function Services() {
           </div>
 
           <div className="sm:col-start-2 sm:col-end-4 col-start-1 col-end-5">
-            <h2 className="lg:text-[48px] md:text-[40px] text-[32px] font-semibold text-gray-900 leading-[1.1] tracking-[-1.5px] max-w-4xl">
+            <h2 className="lg:text-[48px] md:text-[40px] text-[32px] font-semibold text-[#222] leading-[1.1] tracking-[-1.5px] max-w-4xl">
               <span className="block">Explore Our Full Spectrum</span>
               <span>
                 Of{" "}
-                <span className="text-[#cd0000] italic font-medium">
+                <span className="text-[#B81C15] italic font-medium">
                   Innovative Solutions
                 </span>
               </span>

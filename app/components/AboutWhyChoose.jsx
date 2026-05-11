@@ -29,78 +29,64 @@ export default function AboutWhyChoose() {
 
         {/* Content */}
         <div>
-          <h3 className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold text-[#222] mb-2 lg:mb-4 leading-snug">
+          <h3 className="text-[22px] md:text-[28px] lg:text-[32px] 2xl:text-[40px] font-semibold text-[#222] mb-2 lg:mb-4 leading-snug">
             WHY BUSINESSES TRUST US TO DELIVER EXCELLENCE
           </h3>
 
-          <p className="text-[#222] mb-4 text-[15px] md:text-[16px] lg:text-[18px] leading-6">
+          <p className="text-[#222] mb-4 text-[15px] md:text-[16px] lg:text-[17px] 2xl:text-[18px] leading-6">
             At our agency, we combine creativity, strategy, and technology to
             deliver solutions that truly make an impact. Our team of experts
             works closely with each client to understand their unique
           </p>
 
-          {/* List */}
-          <ul className="space-y-4 mb-4 xl:[&_li]:text-[24px] lg:[&_li]:text-[20px] md:[&_li]:text-[18px] [&_li]:text-[17px]">
+<ul className="space-y-4 mb-4 lg:[&_li]:text-[20px] [&_li]:text-[16px] [&_li]:text-[#222]">
 
-            <li className="flex items-start gap-3">
-              <Image
-                src="/images/About Why Icon.webp"
-                alt="icon"
-                width={18}
-                height={18}
-                className="lg:mt-1.25 mt-0"
-              />
+  <li className="flex items-start gap-3">
+    <Image
+      src="/images/About Why Icon.webp"
+      alt="icon"
+      width={18}
+      height={18}
+      className="lg:mt-1.25 mt-0"
+    />
+    Struggling to communicate your brand message
+  </li>
 
-              <p className="text-[#222] text-[16px] lg:text-[20px]">
-                Struggling to communicate your brand message
-              </p>
-            </li>
+  <li className="flex items-start gap-3">
+    <Image
+      src="/images/About Why Icon.webp"
+      alt="icon"
+      width={18}
+      height={18}
+      className="lg:mt-1.25 mt-0"
+    />
+    Need better digital marketing strategies
+  </li>
 
-            <li className="flex items-start gap-3">
-              <Image
-                src="/images/About Why Icon.webp"
-                alt="icon"
-                width={18}
-                height={18}
-                className="lg:mt-1.25 mt-0"
-              />
+  <li className="flex items-start gap-3">
+    <Image
+      src="/images/About Why Icon.webp"
+      alt="icon"
+      width={18}
+      height={18}
+      className="lg:mt-1.25 mt-0"
+    />
+    Looking to grow your online presence
+  </li>
 
-              <p className="text-[#222] text-[16px] lg:text-[20px]">
-                Need better digital marketing strategies
-              </p>
-            </li>
+  <li className="flex items-start gap-3">
+    <Image
+      src="/images/About Why Icon.webp"
+      alt="icon"
+      width={18}
+      height={18}
+      className="lg:mt-1.25 mt-0"
+    />
+    Want creative branding solutions
+  </li>
 
-            <li className="flex items-start gap-3">
-              <Image
-                src="/images/About Why Icon.webp"
-                alt="icon"
-                width={18}
-                height={18}
-                className="lg:mt-1.25 mt-0"
-              />
+</ul>
 
-              <p className="text-[#222] text-[16px] lg:text-[20px]">
-                Looking to grow your online presence
-              </p>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <Image
-                src="/images/About Why Icon.webp"
-                alt="icon"
-                width={18}
-                height={18}
-                className="lg:mt-1.25 mt-0"
-              />
-
-              <p className="text-[#222] text-[16px] lg:text-[20px]">
-                Want creative branding solutions
-              </p>
-            </li>
-
-          </ul>
-
-          
           <Link href=""
             type="button"
             className="relative rounded-full bg-black hover:bg-[#b81c15] text-white py-3 pr-8 pl-12 uppercase cursor-pointer before:content-[''] before:absolute before:left-7 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:bg-white before:rounded-full"
