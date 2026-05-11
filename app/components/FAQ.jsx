@@ -64,7 +64,7 @@ export default function FAQ() {
           </h2>
         </div>
 
-        <div className="max-w-[1000px] m-auto flex flex-col gap-4 pt-5">
+        <div className="max-w-250 m-auto flex flex-col gap-4 pt-5">
           {services.map((item, index) => (
             <div
               key={index}
@@ -72,9 +72,9 @@ export default function FAQ() {
             >
               <button
                 onClick={() => toggle(index)}
-                className="w-full flex items-center justify-between px-5 py-4"
+                className="w-full flex items-center justify-between px-5 py-4 cursor-pointer"
               >
-                <p className="text-[#222] text-[16px] md:text-[17px] lg:text-[18px] text-left">
+                <p className="text-[#222] text-[16px] md:text-[17px] lg:text-[18px] text-left font-[inter]!">
                   {item.question}
                 </p>
 
@@ -91,7 +91,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="rounded-[20px] px-5 pb-4 pt-0!">
-                  <p className="text-[#222] text-sm leading-6">{item.answer}</p>
+                  <p className="text-[#222] text-sm leading-6 ">{item.answer}</p>
                 </div>
               </div>
             </div>

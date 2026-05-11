@@ -15,16 +15,16 @@ const Process = () => {
           <div className="max-w-180 m-auto flex flex-col gap-5">
             <div className="flex flex-col sm:flex-row md:gap-8 gap-4 sm:mb-35 mb-2 relative before:hidden sm:before:block before:content-[''] before:absolute before:left-11 before:top-28 sm:before:h-full before:h-[90%] before:w-1 before:bg-linear-to-b before:from-white before:to-[#e4837f] px-4">
               <div className="text-[#B81C15] text-center sm:text-left lg:[&>strong]:text-[66px] [&>strong]:text-[50px] [text-shadow:0_1px_13px_0_#DD4242]">
-                <strong>01</strong>
+                <strong className="!font-unbounded">01</strong>
               </div>
 
-              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:text-[16px] [&>p]:text-[#22222299]">
+              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:font-[inter]! [&>p]:text-[16px] [&>p]:text-[#22222299]">
 
-                <span>Step 01</span>
+                <span >Step 01</span>
 
                 <h3>Discovery Phase</h3>
 
-                <p>
+                <p >
                   During this initial stage, we delve deep into understanding
                   your business goals, target audience, and market landscape.
                   We conduct thorough research and analysis to identify
@@ -40,7 +40,7 @@ const Process = () => {
                 <strong>02</strong>
               </div>
 
-              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:text-[16px] [&>p]:text-[#22222299]">
+              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:font-[inter]! [&>p]:text-[16px] [&>p]:text-[#22222299]">
 
                 <span>Step 02</span>
 
@@ -62,7 +62,7 @@ const Process = () => {
                 <strong>03</strong>
               </div>
 
-              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:text-[16px] [&>p]:text-[#22222299]">
+              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:font-[inter]! [&>p]:text-[16px] [&>p]:text-[#22222299]">
 
                 <span>Step 03</span>
 
@@ -84,7 +84,7 @@ const Process = () => {
                 <strong>04</strong>
               </div>
 
-              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:text-[16px] [&>p]:text-[#22222299]">
+              <div className="bg-white rounded-[30px] md:p-8 p-5 [&>span]:text-[#B81C15] [&>span]:font-bold! [&>span]:text-[16px] [&>span]:uppercase [&>h3]:text-2xl [&>h3]:font-semibold! [&>h3]:pt-4 [&>h3]:pb-2 [&>p]:font-[inter]! [&>p]:text-[16px] [&>p]:text-[#22222299]">
                 <span>Step 04</span>
                 <h3>Monitoring and Optimization</h3>
                 <p>

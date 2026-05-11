@@ -37,12 +37,12 @@ export default function ApplicationProcess() {
   ];
 
   return (
-    <section className="bg-[#fff] py-20 px-4 overflow-hidden">
+    <section className="bg-white py-20 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center lg:mb-24 mb-15">
-          <h2 className="lg:text-[51px] md:text-5xl sm:text-4xl text-[34px] !font-bold leading-[1.1]">
+          <h2 className="lg:text-[51px] md:text-5xl sm:text-4xl text-[34px] font-bold! leading-[1.1]">
             Application{" "}
-            <span className="text-[#B81C15] !font-bold">
+            <span className="text-[#B81C15] font-bold!">
               Process
             </span>
           </h2>
@@ -62,7 +62,7 @@ export default function ApplicationProcess() {
               <div className="absolute left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
 
                 <h3
-                  className="text-[64px] font-semibold leading-none !text-[#B81C15]"
+                  className="text-[64px] font-semibold leading-none text-[#B81C15]!"
                   style={{
                     textShadow: "0px 0px 30px rgba(221,66,66,0.9)",
                   }}
@@ -72,7 +72,7 @@ export default function ApplicationProcess() {
 
                 {index !== steps.length - 1 && (
                   <div
-                    className="w-[2px] h-[105px] mt-4"
+                    className="w-0.5 h-26.25 mt-4"
                     style={{
                       background:
                         "linear-gradient(180deg, rgba(184, 28, 21, 0) 10.1%, #B81C15 100%)",
@@ -89,7 +89,7 @@ export default function ApplicationProcess() {
                 }`}
               >
                 <div
-                  className={`w-[350px] bg-white rounded-[14px] border border-[#E6E6E6] shadow-[0px_4px_24px_rgba(0,0,0,0.08)] p-5 ${
+                  className={`w-87.5 bg-white rounded-[14px] border border-[#E6E6E6] shadow-[0px_4px_24px_4px_#00000014] p-5 ${
                     item.side === "left"
                       ? "text-right"
                       : "text-left"

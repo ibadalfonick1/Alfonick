@@ -26,14 +26,14 @@ const Agency = () => {
        
         <div className="flex justify-center lg:[&>h2]:text-[98px] md:[&>h2]:text-[70px] sm:[&>h2]:text-[50px] [&>h2]:text-[34px] [&>h2]:font-bold! [&>h2]:uppercase items-center gap-2">
           <div className="flex flex-col items-center text-end lg:[&_span]:text-[45px] md:[&_span]:text-[38px] sm:[&_span]:text-[30px] [&_span]:text-[24px] sm:-mb-7 -mb-3">
-            <span className="text-white font-bold [-webkit-text-stroke:0.54px_black] uppercase tracking-[-0.5px] leading-[0.8px]">
+            <span className="text-white font-extrabold! [-webkit-text-stroke:0.54px_black] uppercase tracking-[-0.5px] leading-[0.8px]">
               About
             </span>
-            <span className="text-[#D4D4D4] uppercase block">
+            <span className="text-[#D4D4D4] uppercase block font-extrabold!">
               Our
             </span>
           </div>
-          <h2>Agency</h2>
+          <h2 className="tracking-[-0.8px]!">Agency</h2>
         </div>
 
       
@@ -53,7 +53,6 @@ const Agency = () => {
 
             </video>
 
-            {/* PLAY BUTTON (also only video control) */}
             {!isPlaying && (
               <div
                 className="absolute inset-0 flex items-center justify-center pointer-events-none"

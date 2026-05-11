@@ -22,7 +22,7 @@ const WhyChoose = () => {
       
         <div className="flex flex-col gap-10 lg:pr-5">
           <div className="flex items-center gap-5">
-            <h3 className="text-4xl lg:text-[64px] font-bold">01.</h3>
+            <h3 className="text-4xl lg:text-[64px] font-bold font-dm!">01.</h3>
             <div>
               <strong className="text-xl lg:text-2xl block pb-2">
                 Quality Work

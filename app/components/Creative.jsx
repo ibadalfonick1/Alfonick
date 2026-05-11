@@ -52,7 +52,7 @@ export default function Creative() {
                 <span className="text-[#B81C15] font-bold! ">
                   CREATIVE
                 </span>
-                <span className="block font-bold!">Digital marketing</span>
+                <span className="block font-bold!">Digital Marketing</span>
                 <span className="block font-bold!">Agency from Pakistan</span>
               </h2>
 
@@ -76,13 +76,11 @@ export default function Creative() {
                 />
               </div>
 
-              <p className="text-[#222222B3] text-base mt-4 mb-5 leading-normal capitalize">
+              <p className="text-[#222222B3] text-base mt-4 mb-5 leading-normal capitalize font-[inter]!">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry standard dummy
                 text ever since the 1500s, when an unknown printer took.
               </p>
-
-          <Button btn="Read more" />
 
             </div>
 
@@ -93,13 +91,13 @@ export default function Creative() {
           <div className="grid md:grid-cols-3 lg:gap-20 gap-5 mt-8">
             {features.map((feature) => (
               <div key={feature.id}>
-                <h2 className="text-3xl md:text-4xl xl:text-5xl font-light text-transparent! [-webkit-text-stroke:1px_#757575]!">
+                <h2 className="text-3xl md:text-4xl xl:text-5xl font-light text-transparent! [-webkit-text-stroke:1px_#757575]! font-dm!">
                   {feature.id}.{" "}
                   <span className="text-black lg:text-[32px] sm:text-[24px] font-bold! text-[20px] semibold! [-webkit-text-stroke:0] md:-ml-2 ml-0">
                     {feature.title}
                   </span>
                 </h2>
-                <p className="mt-3 text-gray-500 leading-5 text-sm capitalize">
+                <p className="mt-3 text-gray-500 leading-5 text-sm capitalize font-[inter]!">
                   {feature.desc}
                 </p>
               </div>

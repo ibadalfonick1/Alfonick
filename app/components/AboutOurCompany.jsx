@@ -35,16 +35,16 @@ const AboutOurCompany = () => {
 
           <div>
             <div className="flex flex-col sm:flex-row items-start gap-4 pb-5">
-              <span className="px-6 py-3 rounded-full bg-[#B81C15]/5 text-[#B81C15] text-sm whitespace-nowrap">
+              <span className="px-6 py-3 rounded-full bg-[#B81C15]/5 text-[#B81C15] text-sm whitespace-nowrap italic">
                 Who we are
               </span>
 
-              <h2 className="mt-2 sm:mt-0 text-[30px] sm:text-[36px] lg:text-[46px] xl:text-[56px] leading-[1.1] font-semibold">
+              <h2 className="mt-2 sm:mt-0 text-[30px] sm:text-[36px] lg:text-[46px] xl:text-[56px] leading-[1.1] font-semibold ">
                 About our Company
               </h2>
             </div>
 
-            <p className="text-[#555] xl:text-[24px] lg:text-[20px] sm:text-[18px] text-[17px] xl:leading-10 leading-6">
+            <p className="text-[#555] xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[17px] xl:leading-10 leading-6 font-[inter]!">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s </p>
           </div>
 
