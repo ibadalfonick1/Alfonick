@@ -83,7 +83,7 @@ export default function AgencyCulture() {
             </div>
 
             <div className="absolute left-6 bottom-11 translate-y-10 opacity-0 transition-all duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100 z-20">
-              <div className="text-white text-[40px] leading-px">Socail Freaks</div>
+              <div className="text-white text-[40px] leading-px">Social Freaks</div>
             </div>
 
             <div

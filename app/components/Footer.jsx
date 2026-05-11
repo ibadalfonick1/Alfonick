@@ -66,7 +66,7 @@ export default function Footer() {
               <a href="#">Portfolio</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href=".contact">Contact</a>
             </li>
             <li>
               <a href="/careers">Career</a>

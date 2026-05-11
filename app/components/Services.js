@@ -92,15 +92,14 @@ export default function Services() {
                     {service.id}
                   </span>
 
-                  <h3 className="lg:text-[30px] text-[18px] font-medium leading-none ml-0 group-hover:ml-3 sm:group-active:ml-4 group-active:ml-2 transition-all duration-500">
+                  <h3 className="lg:text-[30px] text-[18px] font-medium leading-none ml-0 group-hover:ml-3 sm:group-active:ml-4 group-active:ml-2 transition-all duration-900">
                     {service.title}
                   </h3>
                 </div>
                 <div className="flex-1 text-left">
                   <p
                     className="lg:text-[14px] text-[12px] lg:leading-6 leading-4 text-[#22222299] 
-          max-w-65 mx-auto group-hover:text-white group-active:text-white
-          transition-all duration-500 "
+          max-w-65 mx-auto group-hover:text-white group-active:text-white transition-all duration-700 "
                   >
                     {service.desc}
                   </p>
