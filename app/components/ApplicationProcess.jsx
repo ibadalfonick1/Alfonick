@@ -40,19 +40,19 @@ export default function ApplicationProcess() {
     <section className="bg-white py-20 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center lg:mb-24 mb-15">
-          <h2 className="lg:text-[51px] md:text-5xl sm:text-4xl text-[34px] font-bold! leading-[1.1]">
+          <h2 className="lg:text-[51px] md:text-5xl sm:text-4xl text-[34px] font-semibold! leading-[1.1]">
             Application{" "}
-            <span className="text-[#B81C15] font-bold!">
+            <span className="text-[#B81C15] italic font-semibold!">
               Process
             </span>
           </h2>
 
-          <p className="text-[#22222299] text-base lg:text-xl mt-3">
+          <p className="text-[#22222299] text-base lg:text-xl mt-3 font-[inter]!">
             Four simple steps to join the team
           </p>
         </div>
 
-        <div className="hidden lg:block relative h-[850px] max-w-6xl mx-auto">
+        <div className="hidden lg:block relative h-212 max-w-6xl mx-auto ">
           {steps.map((item, index) => (
             <div
               key={index}
@@ -107,16 +107,16 @@ export default function ApplicationProcess() {
                      <FiArrowUpRight className="text-[#B81C15] text-[18px]" />
                    </div>
 
-                    <span className="text-[10px] font-semibold tracking-[1.5px] text-[#B81C15] uppercase">
+                    <span className="text-[10px] font-semibold tracking-[1.5px] text-[#B81C15] uppercase font-[inter]!">
                       {item.step}
                     </span>
                   </div>
 
-                  <h3 className="text-xl !font-bold text-[#222] leading-none mb-3">
+                  <h3 className="text-xl font-bold! text-[#222] leading-none mb-3 font-jakarta">
                     {item.title}
                   </h3>
 
-                  <p className="text-sm leading-[1.5] text-[#737373]">
+                  <p className="text-sm leading-normal text-[#737373] font-[inter]!">
                     {item.desc}
                   </p>
                 </div>
@@ -133,7 +133,8 @@ export default function ApplicationProcess() {
                 <div className="absolute left-0 top-0 flex flex-col items-center">
 
                   <h3
-                    className="text-[42px] font-semibold leading-none !text-[#B81C15]"
+                    className="text-[42px] font-semibold leading-none
+                     text-[#B81C15]!"
                     style={{
                       textShadow: "0px 0px 30px rgba(221,66,66,0.9)",
                     }}
@@ -143,7 +144,7 @@ export default function ApplicationProcess() {
 
                   {index !== steps.length - 1 && (
                     <div
-                      className="w-[2px] h-[90px] mt-4"
+                      className="w-0.5 h-22.5 mt-4"
                       style={{
                         background:
                           "linear-gradient(180deg, rgba(184, 28, 21, 0) 10.1%, #B81C15 100%)",
@@ -163,11 +164,11 @@ export default function ApplicationProcess() {
                     </span>
                   </div>
 
-                  <h3 className="text-[18px] !font-bold text-[#222] mb-1">
+                  <h3 className="text-[18px] font-bold! text-[#222] mb-1">
                     {item.title}
                   </h3>
 
-                  <p className="text-[13px] leading-[1.5] text-[#737373]">
+                  <p className="text-[13px] leading-normal text-[#737373]">
                     {item.desc}
                   </p>
                 </div>

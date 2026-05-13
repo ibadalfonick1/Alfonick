@@ -157,7 +157,7 @@ export default function GallerySection() {
       <div className="max-w-380 mx-auto px-5">
         <div className="text-center mb-10">
           <div className="span:text-[#B81C15] text-center px-6 py-3 rounded-4xl w-fit m-auto bg-[#B81C15]/5 text-[#B81C15]">
-            <span className=""> Image Gallery </span>
+            <span style={{fontFamily: "Arial"}}> Image Gallery </span>
           </div>
 
           <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-semibold text-[#222] leading-[1.1] tracking-[-1px] mt-3.75">
@@ -172,107 +172,51 @@ export default function GallerySection() {
 
         <Tabs defaultValue="all" className="w-full">
           <TabsList
-            className="
-    flex justify-start! md:flex-wrap md:justify-center
-    gap-3 mb-10 bg-transparent h-auto p-0
-
-    w-full md:w-auto md:max-w-4xl
-    mx-auto
-
-    md:overflow-visible
-    overflow-x-auto
-
-    flex-nowrap
-    whitespace-nowrap
-
-    scroll-smooth
-    no-scrollbar
-
-    px-2
-  "
-          >
+            className="flex justify-start! md:flex-wrap md:justify-center gap-3 mb-10 bg-transparent h-auto p-0 w-full md:w-auto md:max-w-4xl
+    mx-auto md:overflow-visible overflow-x-auto flex-nowrap whitespace-nowrap scroll-smooth no-scrollbar px-2" >
             <TabsTrigger
               value="all"
-              className="cursor-pointer shrink-0 md:shrink font-[inter]!
-        px-4 py-4.25 rounded-full text-sm
-        transition-all duration-300 border
-        border-[#2222221A]
-        bg-white text-[#222]
-
-        data-[state=active]:bg-[#B81C15]
-        data-[state=active]:text-white!
-        data-[state=active]:border-[#2222221A]
-
-        hover:bg-[#B81C15]
-        hover:text-white!
-        shadow-[4px_4px_20px_0_#91919140]
-      "
-            >
+              className="cursor-pointer shrink-0 md:shrink
+        px-4 py-4.25 rounded-full text-sm transition-all duration-300 border border-[#2222221A] bg-white text-[#222] data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]
+      " style={{ fontFamily: "Arial" }} >
               All Photos
             </TabsTrigger>
 
             <TabsTrigger
               value="fun"
-              className="cursor-pointer shrink-0 md:shrink px-4 py-4.25 font-[inter]! rounded-full text-sm  transition-all duration-300 border border-[#2222221A] bg-white text-[#222]!
+              className="cursor-pointer shrink-0 md:shrink px-4 py-4.25 rounded-full text-sm  transition-all duration-300 border border-[#2222221A] bg-white text-[#222]!
 
-        data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]"
-            >
+        data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]" style={{ fontFamily: "Arial" }} >
               Fun Activities
             </TabsTrigger>
 
             <TabsTrigger
               value="birthdays"
-              className="
-       cursor-pointer
-       font-[inter]!
-
-        shrink-0 md:shrink
-        px-4 py-4.25 rounded-full text-sm
-        transition-all duration-300 border
-        border-[#2222221A]
-        bg-white text-[#222]!
-
-        data-[state=active]:bg-[#B81C15]
-        data-[state=active]:text-white!
-        data-[state=active]:border-[#2222221A]
-
-        hover:bg-[#B81C15]
-        hover:text-white!
-        shadow-[4px_4px_20px_0_#91919140]
+              className="cursor-pointer shrink-0 md:shrink
+        px-4 py-4.25 rounded-full text-sm transition-all duration-300 border border-[#2222221A]
+        bg-white text-[#222]! data-[state=active]:bg-[#B81C15]data-[state=active]:text-white!
+        data-[state=active]:border-[#2222221A] hover:bg-[#B81C15]
+        hover:text-white! shadow-[4px_4px_20px_0_#91919140]
       "
+              style={{fontFamily: "Arial"}}
             >
               Birthdays
             </TabsTrigger>
             <TabsTrigger
               value="team"
-              className="
-       cursor-pointer
-
-         shrink-0 md:shrink
-         px-4 py-4.25 rounded-full text-sm
-        transition-all duration-300 border
-        border-[#2222221A] font-[inter]!
-        bg-white text-[#222]!
-
-        data-[state=active]:bg-[#B81C15]
-        data-[state=active]:text-white!
-        data-[state=active]:border-[#2222221A]
-
-        hover:bg-[#B81C15]
-        hover:text-white!
-        shadow-[4px_4px_20px_0_#91919140]
-      "
-            >
+              className="cursor-pointer shrink-0 md:shrink px-4 py-4.25 rounded-full text-sm transition-all duration-300 border border-[#2222221A] bg-white text-[#222]! data-[state=active]:bg-[#B81C15]
+        data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]" style={{ fontFamily: "Arial" }}>
+              {" "}
               Team Moments
             </TabsTrigger>
 
             <TabsTrigger
               value="office"
               className="
-       cursor-pointer font-[inter]!
-        shrink-0 md:shrink px-4 py-4.25 rounded-full text-sm transition-all duration-300 border
+       cursor-pointershrink-0 md:shrink px-4 py-4.25 rounded-full text-sm transition-all duration-300 border
         border-[#2222221A] bg-white text-[#222]! data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]
       "
+              style={{ fontFamily: "Arial" }}
             >
               Office Life
             </TabsTrigger>

@@ -9,7 +9,7 @@ const GalleryHero = () => {
   
     blur-[80px] opacity-90 -z-99"></div>
 
-        <span className=" border-2 border-white/30  text-[#B81C15]! sm:text-[16px] text-[14px] text:font-bold uppercase block text-center italic m-auto px-6 py-2 w-fit rounded-4xl mb-1 z-99">
+        <span className=" border-2 border-white/30  text-[#B81C15]! sm:text-[16px] text-[14px] text:font-bold uppercase block text-center italic m-auto px-6 py-2 w-fit rounded-4xl mb-1 z-99" style={{fontFamily: "Arial"}}>
           {" "}
           Our Gallery{" "}
         </span>
@@ -17,7 +17,7 @@ const GalleryHero = () => {
         <div
           className="relative z-10 px-5 text-center xl:[&>h1]:text-[90px] lg:[&>h1]:text-[70px] md:[&>h1]:text-[50px] sm:[&>h1]:text-[36px] [&>h1]:text-[32px] [&>h1]:text-white! [&>h1]:leading-[1.2] [&>p]:text-white! lg:[&>p]:text-[20px] sm:[&>p]:text-[18px] [&>p]:text-[16px] [&>p]:m-auto [&>p]:max-w-225 md:[&>h1]:my-0 [&>h1]:mt-2.5 [&>h1]:mb-1.75 ">
           <h1>Our Culture & Moments </h1>
-          <p className="font-[inter]!">
+          <p style={{fontFamily: "Arial"}}>
             A visual journey through our creativity, teamwork, and success stories
           </p>
         </div>

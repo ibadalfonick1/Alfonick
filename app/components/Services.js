@@ -45,7 +45,7 @@ export default function Services() {
               </h4>
             </div>
 
-            <p className="text-[16px] leading-[1.4] text-gray-500 max-w-full lg:max-w-[320px] font-[inter]!">
+            <p className="text-[16px] leading-[1.4] text-gray-500 max-w-full lg:max-w-82.5" style={{fontFamily: "Arial"}}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry’s standard.
             </p>
@@ -97,16 +97,16 @@ export default function Services() {
                   </h3>
                 </div>
                 <div className="flex-1 text-left">
-                  <p className="lg:text-[14px] text-[12px] lg:leading-6 leading-4 text-[#22222299] max-w-65 mx-auto group-hover:text-white group-active:text-white transition-all duration-700 font-[inter]!">
+                  <p
+                    className="lg:text-[14px] text-[12px] lg:leading-6 leading-4 text-[#22222299] max-w-65 mx-auto group-hover:text-white group-active:text-white transition-all duration-70" style={{fontFamily: "Arial"}}>
                     {service.desc}
                   </p>
                 </div>
 
                 <div
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-[#DADADA] shrink-0
-      group-hover:bg-white group-active:bg-white transition-all duration-500"
-                >
-                  <FaArrowRight className="text-[18px] text-black rotate-[-45deg] group-hover:rotate-[45deg] group-active:rotate-[45deg] transition-all duration-500 " />
+      group-hover:bg-white group-active:bg-white transition-all duration-500 ">
+                  <FaArrowRight className="text-[18px] text-black -rotate-45 group-hover:rotate-45 group-active:rotate-45 transition-all duration-500 " />
                 </div>
               </div>
             ))}

@@ -1,7 +1,5 @@
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
-
-import Button from '../components/Button'
 
 const features = [
   {
@@ -49,7 +47,7 @@ export default function Creative() {
 
               <h2 className="lg:text-[56px] md:text-4xl sm:text-2xl text-[28px] font-bold! leading-[1.1]">
                 We are{" "}
-                <span className="text-[#B81C15] font-bold! ">
+                <span className="text-[#B81C15] font-bold!">
                   CREATIVE
                 </span>
                 <span className="block font-bold!">Digital Marketing</span>
@@ -76,7 +74,7 @@ export default function Creative() {
                 />
               </div>
 
-              <p className="text-[#222222B3] text-base mt-4 mb-5 leading-normal capitalize font-[inter]!">
+              <p className="text-[#222222B3] text-base mt-4 mb-5 leading-normal capitalize" style={{fontFamily: "Arial"}}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry standard dummy
                 text ever since the 1500s, when an unknown printer took.
@@ -91,13 +89,13 @@ export default function Creative() {
           <div className="grid md:grid-cols-3 lg:gap-20 gap-5 mt-8">
             {features.map((feature) => (
               <div key={feature.id}>
-                <h2 className="text-3xl md:text-4xl xl:text-5xl font-light text-transparent! [-webkit-text-stroke:1px_#757575]! font-dm!">
+                <h2 className="text-3xl md:text-4xl xl:text-5xl font-light text-transparent! [-webkit-text-stroke:1px_#757575]!" style={{fontFamily: "DM Sans"}}>
                   {feature.id}.{" "}
-                  <span className="text-black lg:text-[32px] sm:text-[24px] font-bold! text-[20px] semibold! [-webkit-text-stroke:0] md:-ml-2 ml-0">
+                  <span className="text-black lg:text-[32px] sm:text-[24px] font-bold! text-[20px] semibold! [-webkit-text-stroke:0]">
                     {feature.title}
                   </span>
                 </h2>
-                <p className="mt-3 text-gray-500 leading-5 text-sm capitalize font-[inter]!">
+                <p className="mt-3 md:max-w-[80%] max-w-full text-gray-500 leading-5.5 text-sm capitalize" style={{fontFamily: "Arial"}}>
                   {feature.desc}
                 </p>
               </div>

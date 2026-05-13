@@ -54,7 +54,7 @@ export default function FAQ() {
     <main className="px-6 md:px-10 lg:px-20 sm:pt-16 pt-12 pb-22">
       <div className="max-w-5xl mx-auto">
         <div className="pb-5 xl:[&>h2]:text-[50px] lg:[&>h2]:text-[46px] sm:[&>h2]:text-[36px] [&>h2]:mt-4 [&>h2]:text-[30px] sm:[&>h2]:pt-0 [&>h2]:pt-5 [&>h2]:leading-[1.1] [&>h2_span]:text-[#B81C15] [&>h2_span]:italic text-center [&>span]:px-6 [&>span]:py-3 [&>span]:italic [&>span]:rounded-4xl [&>span]:bg-[#B81C15]/5 [&>span]:text-[#B81C15]">
-          <span className=""> Frequently Asked Questions </span>
+          <span className="" style={{fontFamily: "Arial"}}> Frequently Asked Questions </span>
           <h2>
             Got Questions?{" "}
             <div className="block">
@@ -74,7 +74,7 @@ export default function FAQ() {
                 onClick={() => toggle(index)}
                 className="w-full flex items-center justify-between px-5 py-4 cursor-pointer"
               >
-                <p className="text-[#222] text-[16px] md:text-[17px] lg:text-[18px] text-left font-[inter]!">
+                <p className="text-[#222] text-[16px] md:text-[17px] lg:text-[18px] text-left" style={{fontFamily: "Arial"}}>
                   {item.question}
                 </p>
 
@@ -91,7 +91,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="rounded-[20px] px-5 pb-4 pt-0!">
-                  <p className="text-[#222] text-sm leading-6 ">{item.answer}</p>
+                  <p className="text-[#222] text-sm leading-6" style={{fontFamily: "Arial"}}>{item.answer}</p>
                 </div>
               </div>
             </div>

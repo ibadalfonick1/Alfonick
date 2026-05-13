@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="">
+    <header className="z-3">
       <div className=" container ">
         <div className="flex justify-between items-center px-5 pt-10 pb-5">
           <Link href="/" className="sm:[&>img]:w-40 [&>img]:w-30">
@@ -15,7 +15,7 @@ const Header = () => {
             />
           </Link>
 
-          <Link
+        <Link
             href="#"
             className="headerBtn group relative inline-block border rounded-full md:py-3 sm:py-4 py-3! sm:pr-5 pr-3 sm:pl-15 pl-12 hover:pr-15 hover:pl-5 text-white transition-all duration-300"
           >

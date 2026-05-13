@@ -72,12 +72,12 @@ const articles = [
 export default function Blog() {
   return (
 
-    <section className=" px-5 py-16">
+    <section className=" px-5 sm:pt-20 pt-16 sm:pb-20 :pb-15">
       <div className="max-w-360 mx-auto">
-      <div className="text-center mb-12 [&>span]:text-[#B81C15] [&>span]:px-6 [&>span]:py-3 [&>span]:rounded-4xl [&>span]:w-fit [&>span]:m-auto [&>span]:bg-[#B81C15]/5 ">
-        <span> LATEST NEWS & INSIGHTS </span>
+      <div className="text-center mb-12 [&>span]:text-[#B81C15] [&>span]:px-6 [&>span]:py-3 [&>span]:rounded-4xl [&>span]:w-fit [&>span]:m-auto [&>span]:bg-[#B81C15]/5">
+        <span style={{fontFamily: "Arial"}}> LATEST NEWS & INSIGHTS </span>
 
-        <h2 className="text-[36px] md:text-[44px] font-['Trump_Gothic_Pro'] lg:text-[56px] font-bold! text-[#222] leading-[1.1] tracking-[-1px] mt-6.25 uppercase">
+        <h2 className="text-[40px] md:text-[50px] lg:text-[70px] xl:text-[100px] 2xl:text-[120px] font-bold! text-[#222] leading-[1.1] mt-6.25 uppercase font-trump tracking-[1px]">
           Simple Tips That{" "}
           <span className="block font-bold!"> Actually Work</span>
         </h2>

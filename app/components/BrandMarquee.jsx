@@ -27,7 +27,7 @@ export default function BrandMarquee() {
         </h2>
       </div>
 
-      <div className="max-w-387 mx-auto space-y-6">
+      <div className="max-w-397.5 mx-auto px-5 space-y-6">
         <div className="overflow-hidden">
           <div className="flex gap-3 animate-marquee whitespace-nowrap">
             {[...logos, ...logos].map((item, i) => (

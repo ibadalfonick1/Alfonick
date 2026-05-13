@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </Link>
 
-          <p className="text-lg text-[#FAFAFA] mb-6">
+          <p className="text-lg text-[#FAFAFA] mb-6" style={{fontFamily: "Arial"}}> 
             Lorem ipsum dolor sit amet, consectetur
             <span className="block"> consectetur adipiscing consect.</span>
           </p>
