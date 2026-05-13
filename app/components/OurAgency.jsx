@@ -8,7 +8,7 @@ const OurAgency = () => {
       <section className="md:pt-15 pt-7">
         <div className="">
           <div className="container m-auto grid sm:grid-cols-13 grid-cols-1 md:gap-14 gap-5 py-10!">
-            <div className="lg:col-start-1 lg:col-end-5 sm:col-start-1 sm:col-end-7 col-start-1 col-end-13 lg:[&_span]:text-2xl md:[&_span]:text-xl [&_span]:text-base sm:[&_p]:pt-8 [&_p]:pt-4">
+            <div className="lg:col-start-1 lg:col-end-5 sm:col-start-1 sm:col-end-7 col-start-1 col-end-13 lg:[&_span]:text-2xl md:[&_span]:text-xl [&_span]:text-base sm:[&_p]:pt-8 [&_p]:pt-4 [&_p]:font-[inter]!">
               <span className="relative inline-block pl-24 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:m-auto before:w-20 before:h-3 before:bg-[url('/images/line.webp')] before:bg-no-repeat before:bg-contain">
                 Creative Space
               </span>

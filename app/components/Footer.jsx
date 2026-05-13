@@ -60,10 +60,10 @@ export default function Footer() {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Service</a>
+              <a href="/service">Service</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="/portfolio">Portfolio</a>
             </li>
             <li>
               <a href=".contact">Contact</a>

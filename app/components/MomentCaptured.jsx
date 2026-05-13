@@ -193,9 +193,7 @@ export default function GallerySection() {
           >
             <TabsTrigger
               value="all"
-              className="
-       cursor-pointer
-        shrink-0 md:shrink
+              className="cursor-pointer shrink-0 md:shrink font-[inter]!
         px-4 py-4.25 rounded-full text-sm
         transition-all duration-300 border
         border-[#2222221A]
@@ -207,6 +205,7 @@ export default function GallerySection() {
 
         hover:bg-[#B81C15]
         hover:text-white!
+        shadow-[4px_4px_20px_0_#91919140]
       "
             >
               All Photos
@@ -214,21 +213,9 @@ export default function GallerySection() {
 
             <TabsTrigger
               value="fun"
-              className="
-       cursor-pointer
-         shrink-0 md:shrink
-         px-4 py-4.25 rounded-full text-sm
-        transition-all duration-300 border
-        border-[#2222221A]
-        bg-white text-[#222]!
+              className="cursor-pointer shrink-0 md:shrink px-4 py-4.25 font-[inter]! rounded-full text-sm  transition-all duration-300 border border-[#2222221A] bg-white text-[#222]!
 
-        data-[state=active]:bg-[#B81C15]
-        data-[state=active]:text-white!
-        data-[state=active]:border-[#2222221A]
-
-        hover:bg-[#B81C15]
-        hover:text-white!
-      "
+        data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]"
             >
               Fun Activities
             </TabsTrigger>
@@ -237,6 +224,7 @@ export default function GallerySection() {
               value="birthdays"
               className="
        cursor-pointer
+       font-[inter]!
 
         shrink-0 md:shrink
         px-4 py-4.25 rounded-full text-sm
@@ -250,6 +238,7 @@ export default function GallerySection() {
 
         hover:bg-[#B81C15]
         hover:text-white!
+        shadow-[4px_4px_20px_0_#91919140]
       "
             >
               Birthdays
@@ -262,7 +251,7 @@ export default function GallerySection() {
          shrink-0 md:shrink
          px-4 py-4.25 rounded-full text-sm
         transition-all duration-300 border
-        border-[#2222221A]
+        border-[#2222221A] font-[inter]!
         bg-white text-[#222]!
 
         data-[state=active]:bg-[#B81C15]
@@ -271,6 +260,7 @@ export default function GallerySection() {
 
         hover:bg-[#B81C15]
         hover:text-white!
+        shadow-[4px_4px_20px_0_#91919140]
       "
             >
               Team Moments
@@ -279,20 +269,9 @@ export default function GallerySection() {
             <TabsTrigger
               value="office"
               className="
-       cursor-pointer
-
-        shrink-0 md:shrink
-        px-4 py-4.25 rounded-full text-sm
-        transition-all duration-300 border
-        border-[#2222221A]
-        bg-white text-[#222]!
-
-        data-[state=active]:bg-[#B81C15]
-        data-[state=active]:text-white!
-        data-[state=active]:border-[#2222221A]
-
-        hover:bg-[#B81C15]
-        hover:text-white!
+       cursor-pointer font-[inter]!
+        shrink-0 md:shrink px-4 py-4.25 rounded-full text-sm transition-all duration-300 border
+        border-[#2222221A] bg-white text-[#222]! data-[state=active]:bg-[#B81C15] data-[state=active]:text-white! data-[state=active]:border-[#2222221A] hover:bg-[#B81C15] hover:text-white! shadow-[4px_4px_20px_0_#91919140]
       "
             >
               Office Life

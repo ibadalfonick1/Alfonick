@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Roboto, Geist } from "next/font/google";
+import { Inter, JetBrains_Mono, Roboto, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Unbounded } from "next/font/google";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
-const geistSans = Inter({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = JetBrains_Mono({
-  variable: "--font-geist-mono",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
 
@@ -19,6 +18,16 @@ const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const mono = JetBrains_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+});
+
+const unbounded = Unbounded({
+  subsets: ["latin"],
+  variable: "--font-unbounded",
 });
 
 export const metadata: Metadata = {
@@ -34,7 +43,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, roboto.variable, "font-sans", geist.variable)}
+      className={cn(
+        inter.variable,
+        dmSans.variable,
+        roboto.variable,
+        mono.variable,
+        unbounded.variable,
+        "h-full antialiased"
+      )}
     >
       <body className="min-h-full flex flex-col">
         {children}

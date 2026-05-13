@@ -127,7 +127,7 @@ const Testimonial = () => {
                   className={`rounded-full transition-all duration-300 ${
                     current === index
                       ? "w-3 sm:h-7.5 h-3 bg-red-500"
-                      : "w-3 h-3 bg-white/40"
+                      : "w-3 h-3 bg-white"
                   }`}
                 />
               ))}

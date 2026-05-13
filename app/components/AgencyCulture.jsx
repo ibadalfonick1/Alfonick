@@ -5,7 +5,7 @@ export default function AgencyCulture() {
     <section className="bg-white py-16">
       <div className="max-w-430 mx-auto px-5">
         <div className="span:text-[#B81C15] text-center px-6 py-3 rounded-4xl w-fit m-auto bg-[#B81C15]/5 text-[#B81C15]">
-          <span className=""> OUR CULTURE </span>
+          <span className="font-[inter]!"> OUR CULTURE </span>
         </div>
 
         <div className="text-center sm:mb-12 mb-6 [&>h2]">
@@ -13,7 +13,7 @@ export default function AgencyCulture() {
             Agency <span className="text-[#B81C15] italic">Culture</span>
           </h2>
 
-          <p className="text-[#222] text-base lg:text-lg md:text-[17px] mt-4">
+          <p className="text-[#222] text-base lg:text-lg md:text-[17px] mt-4 font-[inter]!">
             Where creativity meets collaboration
           </p>
         </div>

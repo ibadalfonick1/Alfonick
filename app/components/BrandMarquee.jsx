@@ -19,7 +19,7 @@ export default function BrandMarquee() {
       <div className="pb-5 xl:[&>h2]:text-[50px] lg:[&>h2]:text-[46px] sm:[&>h2]:text-[36px] [&>h2]:mt-4 [&>h2]:text-[30px] sm:[&>h2]:pt-0 [&>h2]:pt-5 [&>h2]:leading-[1.1] [&>h2_span]:text-[#B81C15] [&>h2_span]:italic text-center [&>span]:px-6 [&>span]:py-3 [&>span]:italic [&>span]:rounded-4xl [&>span]:bg-[#B81C15]/5 [&>span]:text-[#B81C15]">
         <span className=""> Core Values </span>
         <h2>
-          Brand We have{" "}
+          Brand We Have{" "}
           <div className="block">
             {" "}
             <span> Worked </span> With

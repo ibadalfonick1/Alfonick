@@ -6,12 +6,11 @@ export default function CareersPage() {
   return (
     <section className="py-16 px-6 md:px-16">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between lg:gap-10 gap-3 mb-8">
-          <div>
-            <span className="text-xs px-5 py-1.5 bg-[#B81C150D] border border-[#B81C150D] text-[#B81C15] rounded-full">
-              OUR CULTURE
-            </span>
-
+        <div className="flex flex-col lg:flex-row justify-between lg:gap-10 gap-3 mb-8
+         ">
+          <div className="[&>span]:text-[#B81C15] [&>span]:text-center [&>span]:px-6 [&>span]:py-3 [&>span]:italic [&>span]:rounded-4xl [&>span]:bg-[#B81C15]/5">
+          
+            <span> Core Values </span>
             <h2 className="text-[36px] md:text-[44px] lg:text-[56px] font-bold text-[#222] leading-[1.1] tracking-[-1px] mt-3.75">
               Why Work{" "}
               <span className="text-[#B81C15] italic block">With Us</span>
@@ -37,7 +36,7 @@ export default function CareersPage() {
       </p>
     </div>
 
-    <h3 className="font-bold text-2xl text-[#222]">
+    <h3 className="font-bold! text-2xl text-[#222]">
       Growth
     </h3>
 
@@ -64,7 +63,7 @@ export default function CareersPage() {
           </p>
         </div>
 
-        <h3 className="font-bold text-2xl text-[#222]">
+        <h3 className="font-bold! text-2xl text-[#222]">
           Innovation
         </h3>
 
@@ -88,7 +87,7 @@ export default function CareersPage() {
           </p>
         </div>
 
-        <h3 className="font-bold text-2xl text-[#222]">
+        <h3 className="font-bold! text-2xl text-[#222]">
           Flexibility
         </h3>
 
@@ -117,7 +116,7 @@ export default function CareersPage() {
           </p>
         </div>
 
-        <h3 className="font-bold text-2xl text-[#222]">
+        <h3 className="font-bold! text-2xl text-[#222]">
           Innovation
         </h3>
 
@@ -141,7 +140,7 @@ export default function CareersPage() {
           </p>
         </div>
 
-        <h3 className="font-bold text-2xl text-[#222]">
+        <h3 className="font-bold! text-2xl text-[#222]">
           Flexibility
         </h3>
 
@@ -167,7 +166,7 @@ export default function CareersPage() {
       </p>
     </div>
 
-    <h3 className="font-bold text-2xl text-[#222]">
+    <h3 className="font-bold! text-2xl text-[#222]">
       Team Culture
     </h3>
 

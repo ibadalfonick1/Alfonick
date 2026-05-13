@@ -16,7 +16,7 @@ const Count = () => {
        Today Competitive.
     </h2>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10 [&_div>h3]:md:leading-20 [&_div>h3]:sm:leading-12 [&_div>h3]:leading-10 [&_div>h3]:xl:text-[80px] [&_div>h3]:md:text-[60px] [&_div>h3]:sm:text-[40px] [&_div>h3]:text-[34px] [&_div>h3]:font-bold! xl:[&_div_p]:text-2xl lg:[&_div_p]:text-xl sm:[&_div_p]:text-base [&_div_p]:font-bold!">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10 [&_div>h3]:md:leading-20 [&_div>h3]:sm:leading-12 [&_div>h3]:leading-10 [&_div>h3]:xl:text-[80px] [&_div>h3]:md:text-[60px] [&_div>h3]:sm:text-[40px] [&_div>h3]:text-[34px] [&_div>h3]:font-bold! xl:[&_div_p]:text-2xl lg:[&_div_p]:text-xl sm:[&_div_p]:text-base [&_div_p]:font-[inter]! [&_div_p]:font-bold!">
 
       <div>
         <h3>12K</h3>

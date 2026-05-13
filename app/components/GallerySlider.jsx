@@ -54,9 +54,8 @@ const GallerySlider = () => {
   }, [api]);
 
   return (
-    <section className="py-20 overflow-hidden bg-white">
+    <section className="sm:py-20 pt-10  pb-15 overflow-hidden bg-white">
       
-      {/* Heading */}
       <div className="text-[#B81C15] text-center px-6 py-3 rounded-4xl w-fit m-auto bg-[#B81C15]/5">
         <span> IMAGE GALLERY </span>
       </div>
@@ -68,7 +67,6 @@ const GallerySlider = () => {
         </h2>
       </div>
 
-      {/* Carousel */}
       <Carousel
         setApi={setApi}
         opts={{
@@ -78,7 +76,6 @@ const GallerySlider = () => {
         className="w-full relative"
       >
         
-        {/* Left Fade */}
         <div className="absolute left-0 top-0 z-20 h-full w-20 md:w-32 pointer-events-none bg-linear-to-r from-white/80 to-transparent" />
 
         {/* Right Fade */}
@@ -89,6 +86,8 @@ const GallerySlider = () => {
             const isActive = index === activeIndex;
 
             return (
+
+
               <CarouselItem
                 key={index}
                 className="pl-2 md:pl-3 md:pr-4 basis-[88%] sm:basis-[72%] md:basis-[58%] lg:basis-[50%]"
@@ -101,8 +100,8 @@ const GallerySlider = () => {
                   }`}
                 >
                   
-                  {/* Image */}
-                  <div className="w-full h-[260px] sm:h-[330px] md:h-[380px]">
+                  <div className="w-full
+                   h-65 sm:h-82.5 md:h-95">
                     <Image
                       src={item.image}
                       alt="gallery"
@@ -125,8 +124,7 @@ const GallerySlider = () => {
           })}
         </CarouselContent>
 
-        {/* Navigation Buttons */}
-        <div className="mt-8 flex items-center justify-center gap-6">
+        <div className="sm:mt-8 mt-0 flex items-center justify-center gap-6">
           
           <CarouselPrevious className="static translate-y-0 bg-transparent border-none shadow-none hover:bg-transparent">
             <Image
